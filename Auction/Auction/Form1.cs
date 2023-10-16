@@ -38,8 +38,7 @@ namespace Auction
 
         private void Avtor_Load(object sender, EventArgs e)
         {
-            toolTip1.SetToolTip(textBoxLogin, "Если вы забыли свой логин, то обратитесь к администратору.");
-            toolTip2.SetToolTip(TextBoxPass, "Если вы забыли свой пароль, то обратитесь к администратору.");
+            
         }
 
         private void vhodbtn_Click(object sender, EventArgs e)

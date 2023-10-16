@@ -82,25 +82,25 @@ namespace Auction
             this.авторизацияToolStripMenuItem,
             this.выходToolStripMenuItem});
 			this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-			this.справкаToolStripMenuItem.Text = "Помощь";
+			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+			this.справкаToolStripMenuItem.Text = "Меню";
 			// 
 			// назадToolStripMenuItem
 			// 
 			this.назадToolStripMenuItem.Name = "назадToolStripMenuItem";
-			this.назадToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+			this.назадToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.назадToolStripMenuItem.Text = "Назад";
 			// 
 			// авторизацияToolStripMenuItem
 			// 
 			this.авторизацияToolStripMenuItem.Name = "авторизацияToolStripMenuItem";
-			this.авторизацияToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+			this.авторизацияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.авторизацияToolStripMenuItem.Text = "Авторизация";
 			// 
 			// выходToolStripMenuItem
 			// 
 			this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-			this.выходToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+			this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.выходToolStripMenuItem.Text = "Выход";
 			// 
 			// dataGridView1
@@ -307,10 +307,10 @@ namespace Auction
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1072, 541);
-			this.ControlBox = false;
 			this.Controls.Add(this.panelSelectBuy);
 			this.Controls.Add(this.panelAddBuy);
 			this.Controls.Add(this.radioButton2);
@@ -325,7 +325,10 @@ namespace Auction
 			this.Controls.Add(this.comboBoxLots);
 			this.Controls.Add(this.dataGridView1);
 			this.Controls.Add(this.menuStrip1);
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "Auction_results";
+			this.ShowIcon = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Аукцион";
 			this.menuStrip1.ResumeLayout(false);

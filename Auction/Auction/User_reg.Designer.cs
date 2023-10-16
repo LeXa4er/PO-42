@@ -69,8 +69,8 @@ namespace Auction
             this.авторизацияToolStripMenuItem,
             this.выходToolStripMenuItem});
 			this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-			this.справкаToolStripMenuItem.Text = "Помощь";
+			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+			this.справкаToolStripMenuItem.Text = "Меню";
 			// 
 			// назадToolStripMenuItem
 			// 
@@ -182,10 +182,10 @@ namespace Auction
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(697, 534);
-			this.ControlBox = false;
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.vhodbtn);
 			this.Controls.Add(this.ShowBtn);
@@ -196,7 +196,10 @@ namespace Auction
 			this.Controls.Add(this.textboxLogin);
 			this.Controls.Add(this.dataGridView1);
 			this.Controls.Add(this.menuStrip1);
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "User_reg";
+			this.ShowIcon = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Пользователи";
 			this.menuStrip1.ResumeLayout(false);

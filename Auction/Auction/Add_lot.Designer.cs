@@ -84,8 +84,8 @@ namespace Auction
             this.авторизацияToolStripMenuItem,
             this.выходToolStripMenuItem});
 			this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-			this.справкаToolStripMenuItem.Text = "Помощь";
+			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+			this.справкаToolStripMenuItem.Text = "Меню";
 			// 
 			// назадToolStripMenuItem
 			// 
@@ -333,10 +333,10 @@ namespace Auction
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1072, 565);
-			this.ControlBox = false;
 			this.Controls.Add(this.panelSelectSell);
 			this.Controls.Add(this.panelAddSellMan);
 			this.Controls.Add(this.pictureBox1);
@@ -353,7 +353,10 @@ namespace Auction
 			this.Controls.Add(this.radioButton1);
 			this.Controls.Add(this.buttonAddLot);
 			this.Controls.Add(this.menuStrip1);
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "Add_lot";
+			this.ShowIcon = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Лоты";
 			this.menuStrip1.ResumeLayout(false);

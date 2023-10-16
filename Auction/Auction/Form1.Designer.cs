@@ -42,7 +42,6 @@ namespace Auction
 			this.TextBoxPass = new System.Windows.Forms.TextBox();
 			this.textBoxLogin = new System.Windows.Forms.TextBox();
 			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-			this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -77,8 +76,8 @@ namespace Auction
 			this.справкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.выходToolStripMenuItem});
 			this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-			this.справкаToolStripMenuItem.Text = "Помощь";
+			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+			this.справкаToolStripMenuItem.Text = "Меню";
 			// 
 			// выходToolStripMenuItem
 			// 
@@ -134,6 +133,7 @@ namespace Auction
 			this.TextBoxPass.Name = "TextBoxPass";
 			this.TextBoxPass.Size = new System.Drawing.Size(194, 39);
 			this.TextBoxPass.TabIndex = 59;
+			this.toolTip1.SetToolTip(this.TextBoxPass, "Если вы забыли свой пароль, то обратитесь к администратору");
 			this.TextBoxPass.UseSystemPasswordChar = true;
 			// 
 			// textBoxLogin
@@ -143,14 +143,15 @@ namespace Auction
 			this.textBoxLogin.Name = "textBoxLogin";
 			this.textBoxLogin.Size = new System.Drawing.Size(194, 39);
 			this.textBoxLogin.TabIndex = 58;
+			this.toolTip1.SetToolTip(this.textBoxLogin, "Если вы забыли свой логин, то обратитесь к администратору");
 			// 
 			// Avtorization
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(578, 397);
-			this.ControlBox = false;
 			this.Controls.Add(this.buttonEnter);
 			this.Controls.Add(this.menuStrip1);
 			this.Controls.Add(this.ShowBtn);
@@ -159,7 +160,10 @@ namespace Auction
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.TextBoxPass);
 			this.Controls.Add(this.textBoxLogin);
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "Avtorization";
+			this.ShowIcon = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Авторизация";
 			this.menuStrip1.ResumeLayout(false);
@@ -174,7 +178,6 @@ namespace Auction
         private System.Windows.Forms.Button buttonEnter;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
         private System.Windows.Forms.Button ShowBtn;
         private System.Windows.Forms.Button HideBtn;
         private System.Windows.Forms.Label label2;
@@ -182,7 +185,7 @@ namespace Auction
         private System.Windows.Forms.TextBox TextBoxPass;
         private System.Windows.Forms.TextBox textBoxLogin;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.ToolTip toolTip2;
-    }
+		private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+	}
 }
 
