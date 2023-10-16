@@ -22,28 +22,21 @@ namespace Auction
             this.Close();
         }
 
-        private void ShowBtn_Click(object sender, EventArgs e)
-        {
-            TextBoxPass.UseSystemPasswordChar = false;
-            ShowBtn.Visible = false;
-            HideBtn.Visible = true;
-        }
-
-        private void HideBtn_Click(object sender, EventArgs e)
-        {
-            TextBoxPass.UseSystemPasswordChar = true;
-            ShowBtn.Visible = true;
-            HideBtn.Visible = false;
-        }
-
         private void Avtor_Load(object sender, EventArgs e)
         {
-            
+            TextBoxPass.UseSystemPasswordChar = true;
         }
 
-        private void vhodbtn_Click(object sender, EventArgs e)
-        {
-
+		private void checkBox1_CheckedChanged(object sender, EventArgs e)
+		{
+            if (checkBox1.Checked)
+            {
+                TextBoxPass.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                TextBoxPass.UseSystemPasswordChar = true;
+            }
         }
-    }
+	}
 }

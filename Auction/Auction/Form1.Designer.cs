@@ -35,13 +35,12 @@ namespace Auction
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.ShowBtn = new System.Windows.Forms.Button();
-			this.HideBtn = new System.Windows.Forms.Button();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.TextBoxPass = new System.Windows.Forms.TextBox();
 			this.textBoxLogin = new System.Windows.Forms.TextBox();
 			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+			this.checkBox1 = new System.Windows.Forms.CheckBox();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -55,7 +54,6 @@ namespace Auction
 			this.buttonEnter.TabIndex = 65;
 			this.buttonEnter.Text = "Войти";
 			this.buttonEnter.UseVisualStyleBackColor = false;
-			this.buttonEnter.Click += new System.EventHandler(this.vhodbtn_Click);
 			// 
 			// menuStrip1
 			// 
@@ -84,25 +82,6 @@ namespace Auction
 			this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
 			this.выходToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
 			this.выходToolStripMenuItem.Text = "Выход";
-			// 
-			// ShowBtn
-			// 
-			this.ShowBtn.BackColor = System.Drawing.Color.LightSteelBlue;
-			this.ShowBtn.Image = ((System.Drawing.Image)(resources.GetObject("ShowBtn.Image")));
-			this.ShowBtn.Location = new System.Drawing.Point(385, 222);
-			this.ShowBtn.Name = "ShowBtn";
-			this.ShowBtn.Size = new System.Drawing.Size(44, 39);
-			this.ShowBtn.TabIndex = 62;
-			this.ShowBtn.UseVisualStyleBackColor = false;
-			// 
-			// HideBtn
-			// 
-			this.HideBtn.Image = ((System.Drawing.Image)(resources.GetObject("HideBtn.Image")));
-			this.HideBtn.Location = new System.Drawing.Point(385, 222);
-			this.HideBtn.Name = "HideBtn";
-			this.HideBtn.Size = new System.Drawing.Size(44, 39);
-			this.HideBtn.TabIndex = 63;
-			this.HideBtn.UseVisualStyleBackColor = true;
 			// 
 			// label2
 			// 
@@ -145,6 +124,20 @@ namespace Auction
 			this.textBoxLogin.TabIndex = 58;
 			this.toolTip1.SetToolTip(this.textBoxLogin, "Если вы забыли свой логин, то обратитесь к администратору");
 			// 
+			// checkBox1
+			// 
+			this.checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
+			this.checkBox1.BackgroundImage = global::Auction.Properties.Resources.pass;
+			this.checkBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.checkBox1.Location = new System.Drawing.Point(385, 222);
+			this.checkBox1.Name = "checkBox1";
+			this.checkBox1.Size = new System.Drawing.Size(39, 39);
+			this.checkBox1.TabIndex = 66;
+			this.toolTip1.SetToolTip(this.checkBox1, "Скрыть/Показать");
+			this.checkBox1.UseVisualStyleBackColor = true;
+			this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+			// 
 			// Avtorization
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -152,10 +145,9 @@ namespace Auction
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(578, 397);
+			this.Controls.Add(this.checkBox1);
 			this.Controls.Add(this.buttonEnter);
 			this.Controls.Add(this.menuStrip1);
-			this.Controls.Add(this.ShowBtn);
-			this.Controls.Add(this.HideBtn);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.TextBoxPass);
@@ -178,14 +170,13 @@ namespace Auction
         private System.Windows.Forms.Button buttonEnter;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
-        private System.Windows.Forms.Button ShowBtn;
-        private System.Windows.Forms.Button HideBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TextBoxPass;
         private System.Windows.Forms.TextBox textBoxLogin;
         private System.Windows.Forms.ToolTip toolTip1;
 		private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+		private System.Windows.Forms.CheckBox checkBox1;
 	}
 }
 
