@@ -41,7 +41,12 @@ namespace Auction
 			this.textBoxLogin = new System.Windows.Forms.TextBox();
 			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
 			this.checkBox1 = new System.Windows.Forms.CheckBox();
+			this.bindingSourceUsers = new System.Windows.Forms.BindingSource(this.components);
+			this.dataSetAuction = new Auction.DataSetAuction();
+			this.useresTableAdapter = new Auction.DataSetAuctionTableAdapters.useresTableAdapter();
 			this.menuStrip1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.bindingSourceUsers)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataSetAuction)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// buttonEnter
@@ -54,6 +59,7 @@ namespace Auction
 			this.buttonEnter.TabIndex = 65;
 			this.buttonEnter.Text = "Войти";
 			this.buttonEnter.UseVisualStyleBackColor = false;
+			this.buttonEnter.Click += new System.EventHandler(this.buttonEnter_Click);
 			// 
 			// menuStrip1
 			// 
@@ -138,6 +144,20 @@ namespace Auction
 			this.checkBox1.UseVisualStyleBackColor = true;
 			this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
 			// 
+			// bindingSourceUsers
+			// 
+			this.bindingSourceUsers.DataMember = "useres";
+			this.bindingSourceUsers.DataSource = this.dataSetAuction;
+			// 
+			// dataSetAuction
+			// 
+			this.dataSetAuction.DataSetName = "DataSetAuction";
+			this.dataSetAuction.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// useresTableAdapter
+			// 
+			this.useresTableAdapter.ClearBeforeFill = true;
+			// 
 			// Avtorization
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,8 +178,11 @@ namespace Auction
 			this.ShowIcon = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Авторизация";
+			this.Load += new System.EventHandler(this.Avtorization_Load);
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.bindingSourceUsers)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataSetAuction)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -177,6 +200,9 @@ namespace Auction
         private System.Windows.Forms.ToolTip toolTip1;
 		private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
 		private System.Windows.Forms.CheckBox checkBox1;
+		private System.Windows.Forms.BindingSource bindingSourceUsers;
+		private DataSetAuction dataSetAuction;
+		private DataSetAuctionTableAdapters.useresTableAdapter useresTableAdapter;
 	}
 }
 

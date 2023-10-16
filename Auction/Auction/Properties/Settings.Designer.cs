@@ -27,7 +27,7 @@ namespace Auction.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-3IBJFU96;Initial Catalog=auction;Integrated Security=True;Conn" +
-            "ect Timeout=30;Encrypt=False;TrustServerCertificate=False")]
+            "ect Timeout=10;Encrypt=False;TrustServerCertificate=False")]
         public string auctionConnectionString {
             get {
                 return ((string)(this["auctionConnectionString"]));
