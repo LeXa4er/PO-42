@@ -5,8 +5,8 @@
 **Разработчики:**
 - [Аникин](https://github.com/MRXTOOR "Веду́щий программи́ст") 
 - [Калинин](https://github.com/MRXTOOR "Ведущий UI/UX разработчик") 
-- [Петров](https://github.com/VLoneB "Ведущий ETL разработчик") 
-- [Вощевоз](https://github.com/alexandra3778 "Разработчик баз данных") 
+- [Петров](https://github.com/VLoneB "Разработчик баз данных") 
+- [Вощевоз](https://github.com/alexandra3778 "Ведущий ETL разработчик") 
 
 **Условия эксплуатации:**
 
