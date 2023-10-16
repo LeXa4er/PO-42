@@ -3,7 +3,7 @@
 **Группа: PO-42**
 
 **Разработчики:**
-- [Аникин](https://github.com/MRXTOOR "Ведущий разработчик") 
+- [Аникин](https://github.com/MRXTOOR "Веду́щий программи́ст") 
 - [Калинин](https://github.com/MRXTOOR "Ведущий UI/UX разработчик") 
 - [Петров](https://github.com/VLoneB "Ведущий ETL разработчик") 
 - [Вощевоз](https://github.com/alexandra3778 "Разработчик баз данных") 
