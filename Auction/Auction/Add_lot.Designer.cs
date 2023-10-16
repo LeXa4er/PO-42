@@ -32,9 +32,9 @@ namespace Auction
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add_lot));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.назадToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.авторизацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.назадToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vhodbtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,8 +51,11 @@ namespace Auction
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -65,7 +68,7 @@ namespace Auction
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(826, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1072, 24);
             this.menuStrip1.TabIndex = 66;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -79,31 +82,31 @@ namespace Auction
             this.справкаToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.справкаToolStripMenuItem.Text = "Помощь";
             // 
+            // назадToolStripMenuItem
+            // 
+            this.назадToolStripMenuItem.Name = "назадToolStripMenuItem";
+            this.назадToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.назадToolStripMenuItem.Text = "Назад";
+            // 
             // авторизацияToolStripMenuItem
             // 
             this.авторизацияToolStripMenuItem.Name = "авторизацияToolStripMenuItem";
-            this.авторизацияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.авторизацияToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.авторизацияToolStripMenuItem.Text = "Авторизация";
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.выходToolStripMenuItem.Text = "Выход";
-            // 
-            // назадToolStripMenuItem
-            // 
-            this.назадToolStripMenuItem.Name = "назадToolStripMenuItem";
-            this.назадToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.назадToolStripMenuItem.Text = "Назад";
             // 
             // vhodbtn
             // 
             this.vhodbtn.BackColor = System.Drawing.Color.LightSteelBlue;
             this.vhodbtn.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.vhodbtn.Location = new System.Drawing.Point(326, 479);
+            this.vhodbtn.Location = new System.Drawing.Point(336, 479);
             this.vhodbtn.Name = "vhodbtn";
-            this.vhodbtn.Size = new System.Drawing.Size(123, 59);
+            this.vhodbtn.Size = new System.Drawing.Size(193, 59);
             this.vhodbtn.TabIndex = 71;
             this.vhodbtn.Text = "Добавить лот";
             this.vhodbtn.UseVisualStyleBackColor = false;
@@ -113,7 +116,7 @@ namespace Auction
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(38, 133);
+            this.label2.Location = new System.Drawing.Point(8, 134);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(209, 31);
             this.label2.TabIndex = 70;
@@ -124,7 +127,7 @@ namespace Auction
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(38, 50);
+            this.label1.Location = new System.Drawing.Point(8, 51);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 31);
             this.label1.TabIndex = 69;
@@ -133,7 +136,7 @@ namespace Auction
             // avtor_password
             // 
             this.avtor_password.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.avtor_password.Location = new System.Drawing.Point(44, 167);
+            this.avtor_password.Location = new System.Drawing.Point(14, 168);
             this.avtor_password.Name = "avtor_password";
             this.avtor_password.Size = new System.Drawing.Size(326, 29);
             this.avtor_password.TabIndex = 68;
@@ -142,7 +145,7 @@ namespace Auction
             // avtor_login
             // 
             this.avtor_login.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.avtor_login.Location = new System.Drawing.Point(44, 84);
+            this.avtor_login.Location = new System.Drawing.Point(14, 85);
             this.avtor_login.Name = "avtor_login";
             this.avtor_login.Size = new System.Drawing.Size(326, 29);
             this.avtor_login.TabIndex = 67;
@@ -152,7 +155,7 @@ namespace Auction
             this.radioButton1.AutoSize = true;
             this.radioButton1.BackColor = System.Drawing.Color.Transparent;
             this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButton1.Location = new System.Drawing.Point(394, 108);
+            this.radioButton1.Location = new System.Drawing.Point(364, 109);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(68, 25);
             this.radioButton1.TabIndex = 72;
@@ -165,7 +168,7 @@ namespace Auction
             this.radioButton2.AutoSize = true;
             this.radioButton2.BackColor = System.Drawing.Color.Transparent;
             this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButton2.Location = new System.Drawing.Point(394, 139);
+            this.radioButton2.Location = new System.Drawing.Point(364, 140);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(83, 25);
             this.radioButton2.TabIndex = 73;
@@ -177,7 +180,7 @@ namespace Auction
             // 
             this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(498, 84);
+            this.comboBox1.Location = new System.Drawing.Point(468, 85);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(277, 29);
             this.comboBox1.TabIndex = 74;
@@ -187,7 +190,7 @@ namespace Auction
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(351, 23);
+            this.label3.Location = new System.Drawing.Point(321, 24);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(168, 42);
             this.label3.TabIndex = 75;
@@ -196,7 +199,7 @@ namespace Auction
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(44, 324);
+            this.textBox1.Location = new System.Drawing.Point(14, 324);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(326, 29);
             this.textBox1.TabIndex = 76;
@@ -204,7 +207,7 @@ namespace Auction
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.numericUpDown1.Location = new System.Drawing.Point(44, 424);
+            this.numericUpDown1.Location = new System.Drawing.Point(14, 424);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(326, 29);
             this.numericUpDown1.TabIndex = 77;
@@ -212,9 +215,9 @@ namespace Auction
             // richTextBox1
             // 
             this.richTextBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.richTextBox1.Location = new System.Drawing.Point(404, 324);
+            this.richTextBox1.Location = new System.Drawing.Point(355, 324);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(371, 129);
+            this.richTextBox1.Size = new System.Drawing.Size(338, 129);
             this.richTextBox1.TabIndex = 78;
             this.richTextBox1.Text = "";
             // 
@@ -223,7 +226,7 @@ namespace Auction
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(401, 251);
+            this.label4.Location = new System.Drawing.Point(371, 251);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 42);
             this.label4.TabIndex = 79;
@@ -234,7 +237,7 @@ namespace Auction
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(521, 290);
+            this.label5.Location = new System.Drawing.Point(462, 290);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(131, 31);
             this.label5.TabIndex = 80;
@@ -245,7 +248,7 @@ namespace Auction
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(141, 290);
+            this.label6.Location = new System.Drawing.Point(111, 290);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(126, 31);
             this.label6.TabIndex = 81;
@@ -256,11 +259,33 @@ namespace Auction
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(107, 390);
+            this.label7.Location = new System.Drawing.Point(77, 390);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(198, 31);
             this.label7.TabIndex = 82;
             this.label7.Text = "Начальная цена:";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(800, 479);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(193, 59);
+            this.button1.TabIndex = 83;
+            this.button1.Text = "Выбрать изображение";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(729, 170);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(331, 283);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 84;
+            this.pictureBox1.TabStop = false;
             // 
             // Add_lot
             // 
@@ -268,8 +293,10 @@ namespace Auction
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(826, 563);
+            this.ClientSize = new System.Drawing.Size(1072, 565);
             this.ControlBox = false;
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -293,6 +320,7 @@ namespace Auction
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,5 +349,7 @@ namespace Auction
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
