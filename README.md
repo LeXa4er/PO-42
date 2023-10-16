@@ -51,6 +51,7 @@
 | originalPrice     | int     | Начальная цена            |
 | description         | varchar(500)      | Описание            |
 | idSailesman         | int      | Внешний ключ к таблице salesman |
+| picture         | varchar(500)    | изображение |
 
 Аукцион - auction
 
