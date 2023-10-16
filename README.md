@@ -6,7 +6,7 @@
 - [Аникин](https://github.com/MRXTOOR "Ведущий разработчик") 
 - [Калинин](https://github.com/MRXTOOR "Ведущий UI/UX разработчик") 
 - [Петров](https://github.com/VLoneB "Ведущий ETL разработчик") 
-- [Вощевоз](https://github.com/alexandra3778 "Ведущий менеджер проекта") 
+- [Вощевоз](https://github.com/alexandra3778 "Разработчик баз данных") 
 
 **Условия эксплуатации:**
 
