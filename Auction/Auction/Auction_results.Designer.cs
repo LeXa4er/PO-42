@@ -289,7 +289,7 @@ namespace Auction
             this.Controls.Add(this.menuStrip1);
             this.Name = "Auction_results";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Auction_results";
+            this.Text = "Аукцион";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
