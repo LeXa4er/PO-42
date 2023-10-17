@@ -134,5 +134,8 @@
   <ItemGroup>
     <Content Include="source\imgSys\pass.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="source\ImgDB\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
