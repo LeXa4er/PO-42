@@ -91,7 +91,7 @@
 | `Sides` | INT | Количество сторон пластинки |
 | `Size` | NVARCHAR(50) | Размер пластинки |
 | `Packaging` | NVARCHAR(MAX) | Информация об упаковке пластинки |
-| `Add` | NVARCHAR(MAX) | Дополнительная информация о пластинке |
+| `Additionally` | NVARCHAR(MAX) | Дополнительная информация о пластинке |
 | `Image` | NVARCHAR(MAX) | Местоположение изображения товара (пластинки) |  
 | `Cost` | FLOAT | Стоимость пластинки |
 
@@ -115,7 +115,7 @@
 | `YearOfProd` | NVARCHAR(50) | Год выпуска диска |
 | `CountryProd` | NVARCHAR(MAX) | Страна производства диска |
 | `Packaging` | NVARCHAR(MAX) | Информация об упаковке диска |
-| `Add` | NVARCHAR(MAX) | Дополнительная информация о диске |
+| `Additionally` | NVARCHAR(MAX) | Дополнительная информация о диске |
 | `Image` | NVARCHAR(MAX) | Местоположение изображения товара (диска) |  
 | `Cost` | FLOAT | Стоимость диска |
 
