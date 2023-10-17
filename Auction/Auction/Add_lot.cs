@@ -59,24 +59,31 @@ namespace Auction
 
         private void buttonAddLot_Click(object sender, EventArgs e)
         {
-            int idSell = 0;
-
-            SqlConnection conn = new SqlConnection(Properties.Settings.Default.auctionConnectionString);
-            conn.Open();
-            SqlCommand Comm = conn.CreateCommand();
-            if (radioButton1.Checked)
+            if (textBoxNameLot.Text == "" && richTextBoxDiscr.Text == "" && imgPath == "")
             {
-                Comm.CommandText = "insert into salesman values('" + textboxFio.Text + "','" + textboxPhone.Text + "')";
-                Comm.ExecuteNonQuery();
-
-                this.salesmanTableAdapter.Fill(this.dataSetAuction.salesman);
-                comboBox1.SelectedIndex = comboBox1.Items.Count - 1;
+                MessageBox.Show("неверные данные");
             }
-            idSell = (int)comboBox1.SelectedValue;
-            comboBox1.SelectedValue = idSell;
-            Comm.CommandText = "insert into product values('" + textBoxNameLot.Text + "','" + numericUpDown1.Value + "','" + richTextBoxDiscr.Text + "','" + comboBox1.SelectedValue + "','" + imgPath + "')";
-            Comm.ExecuteNonQuery();
-            MessageBox.Show("Лот успешно добавлен!");
+            else
+            {
+                int idSell = 0;
+
+                SqlConnection conn = new SqlConnection(Properties.Settings.Default.auctionConnectionString);
+                conn.Open();
+                SqlCommand Comm = conn.CreateCommand();
+                if (radioButton1.Checked)
+                {
+                    Comm.CommandText = "insert into salesman values('" + textboxFio.Text + "','" + textboxPhone.Text + "')";
+                    Comm.ExecuteNonQuery();
+
+                    this.salesmanTableAdapter.Fill(this.dataSetAuction.salesman);
+                    comboBox1.SelectedIndex = comboBox1.Items.Count - 1;
+                }
+                idSell = (int)comboBox1.SelectedValue;
+                comboBox1.SelectedValue = idSell;
+                Comm.CommandText = "insert into product values('" + textBoxNameLot.Text + "','" + numericUpDown1.Value + "','" + richTextBoxDiscr.Text + "','" + comboBox1.SelectedValue + "','" + imgPath + "')";
+                Comm.ExecuteNonQuery();
+                MessageBox.Show("Лот успешно добавлен!");
+            }
         }
     }
 }
