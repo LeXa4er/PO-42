@@ -19,7 +19,7 @@ namespace WatchStore
 
         private void Admin_Load(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "realty_PR11DataSet1.saler". При необходимости она может быть перемещена или удалена.
+           
             this.adminTableAdapter.Fill(this.watchStoreDataSet.Admin);
         }
 
