@@ -16,5 +16,29 @@ namespace Auction
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            User_reg user_Reg = new User_reg();
+            this.Hide();
+            user_Reg.ShowDialog();
+            this.Show();
+        }
+
+        private void lotbtn_Click(object sender, EventArgs e)
+        {
+            Add_lot add_Lot = new Add_lot();
+            this.Hide();
+            add_Lot.ShowDialog();
+            this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Auction_results auction_Results = new Auction_results();
+            this.Hide();
+            auction_Results.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -26,8 +26,8 @@ namespace Auction.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-3IBJFU96;Initial Catalog=auction;Integrated Security=True;Conn" +
-            "ect Timeout=10;Encrypt=False;TrustServerCertificate=False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-7N1VDUN\\SQLEXPRESS01;Initial Catalog=auction;Integrated Secur" +
+            "ity=True;Connect Timeout=10;Encrypt=False;TrustServerCertificate=False")]
         public string auctionConnectionString {
             get {
                 return ((string)(this["auctionConnectionString"]));
