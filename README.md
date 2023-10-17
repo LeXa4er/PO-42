@@ -83,7 +83,7 @@
 | `Genre` | NVARCHAR(MAX) | Жанры музыки, записанной на пластинке |
 | `Description` | NVARCHAR(MAX) | Описание материала, записанного на пластинке |
 | `Publisher` | NVARCHAR(MAX) | Издатель (лицензиар) музыки, записанной на пластинке |
-| `DateOfPub` | DATE | Дата выпуска музыки, записанной на пластинке |
+| `DateOfPub` | NVARCHAR(50) | Дата выпуска музыки, записанной на пластинке |
 | `CountryPub` | NVARCHAR(MAX) | Страна издания |
 | `Manufacturer` | NVARCHAR(MAX) | Производитель, выпустивший пластинку |
 | `YearOfProd` | NVARCHAR(50) | Год выпуска пластинки |
@@ -109,7 +109,7 @@
 | `Genre` | NVARCHAR(MAX) | Жанры музыки, записанной на диске |
 | `Description` | NVARCHAR(MAX) | Описание материала, записанного на диске |
 | `Publisher` | NVARCHAR(MAX) | Издатель (лицензиар) музыки, записанной на диске |
-| `DateOfPub` | DATE | Дата выпуска музыки, записанной на диске |
+| `DateOfPub` | NVARCHAR(50) | Дата выпуска музыки, записанной на диске |
 | `CountryPub` | NVARCHAR(MAX) | Страна издания |
 | `Manufacturer` | NVARCHAR(MAX) | Производитель, выпустивший диск |
 | `YearOfProd` | NVARCHAR(50) | Год выпуска диска |
