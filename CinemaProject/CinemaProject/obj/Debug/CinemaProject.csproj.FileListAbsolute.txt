@@ -1,0 +1,34 @@
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe.config
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\bin\Debug\CinemaProject.pdb
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\bin\Debug\Guna.UI2.dll
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.AssemblyReference.cache
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.g.resources
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.AuthorizationForm.resources
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.Properties.Resources.resources
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.RegistrationForm.resources
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.GenerateResource.cache
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CopyComplete
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.exe
+C:\Users\Андрей\Desktop\CinemaProject\CinemaProject\obj\Debug\CinemaProject.pdb
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.AssemblyReference.cache
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.g.resources
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.AuthorizationForm.resources
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.BookingsForm.resources
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.MoviesForm.resources
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.RegistrationForm.resources
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.SessionsForm.resources
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.GenerateResource.cache
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.exe
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.pdb
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe.config
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\bin\Debug\CinemaProject.pdb
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\bin\Debug\Guna.UI2.dll
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.Properties.Resources.resources
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CoreCompileInputs.cache
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CopyComplete
+C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.AdminForm.resources
