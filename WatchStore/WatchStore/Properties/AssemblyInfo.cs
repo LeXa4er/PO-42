@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
 [assembly: AssemblyTitle("WatchStore")]
-[assembly: AssemblyDescription("Программа предназначена для предоставления информации о товарах магазина часов.")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("РКРИПТ")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("WatchStore")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]

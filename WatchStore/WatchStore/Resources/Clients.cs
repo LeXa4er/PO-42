@@ -16,5 +16,57 @@ namespace WatchStore.Resources
         {
             InitializeComponent();
         }
+
+        private void Clients_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "realty_PR11DataSet1.saler". При необходимости она может быть перемещена или удалена.
+            this.clientsTableAdapter.Fill(this.watchStoreDataSet.Clients);
+        }
+
+        private void btAdd_Click(object sender, EventArgs e)
+        {
+            string Fio = FIORtb.Text;
+            string password = passwordtb.Text;
+            string login = logintb.Text;
+
+            DataRow newRow = this.watchStoreDataSet.Clients.NewRow();
+            newRow["Full_name"] = Fio;
+            newRow["Password"] = password;
+            newRow["Login"] = login;
+            this.watchStoreDataSet.Clients.Rows.Add(newRow);
+        }
+
+        private void savebt_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Validate();
+                this.clientsBindingSource.EndEdit();
+                this.clientsTableAdapter.Update(this.watchStoreDataSet);
+                MessageBox.Show("Изменения сохранены!");
+
+                FIORtb.Text = "";
+                passwordtb.Text = "";
+                logintb.Text = "";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка сохранения данных: " + ex.Message);
+            }
+        }
+
+        private void btdelete_Click(object sender, EventArgs e)
+        {
+            clientsBindingSource.RemoveCurrent();
+        }
+
+        private void FIORtb_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("Ввод цифр запрещен");
+            }
+        }
     }
 }

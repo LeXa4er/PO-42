@@ -10,7 +10,7 @@ namespace WatchStore.Resources
 {
     internal class DataBase
     {
-        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-S21HR1A;Initial Catalog=WatchStore;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-VF772TM;Initial Catalog=WatchStore;Integrated Security=True");
 
         public void openConnection()
         {

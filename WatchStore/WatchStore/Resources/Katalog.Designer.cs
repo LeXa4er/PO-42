@@ -31,93 +31,93 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.resetFilter = new System.Windows.Forms.Button();
             this.typeCb = new System.Windows.Forms.ComboBox();
             this.genderCb = new System.Windows.Forms.ComboBox();
-            this.dtSerch = new System.Windows.Forms.Button();
+            this.Footerpanel = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.ManetableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.costlb1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.manufaclb1 = new System.Windows.Forms.Label();
+            this.namelb1 = new System.Windows.Forms.Label();
+            this.genderlb1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.costlb2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.manufaclb2 = new System.Windows.Forms.Label();
+            this.namelb2 = new System.Windows.Forms.Label();
+            this.genderlb2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.costlb3 = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.manufaclb3 = new System.Windows.Forms.Label();
+            this.namelb3 = new System.Windows.Forms.Label();
+            this.genderlb3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.costlb4 = new System.Windows.Forms.Label();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.manufaclb4 = new System.Windows.Forms.Label();
+            this.namelb4 = new System.Windows.Forms.Label();
+            this.genderlb4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.costlb5 = new System.Windows.Forms.Label();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.manufaclb5 = new System.Windows.Forms.Label();
+            this.namelb5 = new System.Windows.Forms.Label();
+            this.genderlb5 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.costlb6 = new System.Windows.Forms.Label();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.morebt = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.Footerpanel = new System.Windows.Forms.Panel();
+            this.manufaclb6 = new System.Windows.Forms.Label();
+            this.namelb6 = new System.Windows.Forms.Label();
+            this.genderlb6 = new System.Windows.Forms.Label();
+            this.resetFilter = new System.Windows.Forms.Button();
+            this.dtSerch = new System.Windows.Forms.Button();
+            this.loadBackbt = new System.Windows.Forms.Button();
+            this.loadMorebt = new System.Windows.Forms.Button();
+            this.imagepb1 = new System.Windows.Forms.PictureBox();
+            this.imagepb2 = new System.Windows.Forms.PictureBox();
+            this.imagepb3 = new System.Windows.Forms.PictureBox();
+            this.imagepb4 = new System.Windows.Forms.PictureBox();
+            this.imagepb5 = new System.Windows.Forms.PictureBox();
+            this.imagepb6 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
+            this.Footerpanel.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
             this.ManetableLayoutPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.flowLayoutPanel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.flowLayoutPanel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.flowLayoutPanel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.flowLayoutPanel6.SuspendLayout();
-            this.tableLayoutPanel10.SuspendLayout();
-            this.Footerpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb6)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -158,7 +158,7 @@
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.02868F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.97132F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 33F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 48F));
             this.tableLayoutPanel9.Controls.Add(this.resetFilter, 3, 0);
             this.tableLayoutPanel9.Controls.Add(this.typeCb, 0, 0);
             this.tableLayoutPanel9.Controls.Add(this.genderCb, 1, 0);
@@ -172,22 +172,6 @@
             this.tableLayoutPanel9.Size = new System.Drawing.Size(347, 28);
             this.tableLayoutPanel9.TabIndex = 12;
             // 
-            // resetFilter
-            // 
-            this.resetFilter.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.resetFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.resetFilter.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.resetFilter.FlatAppearance.BorderSize = 0;
-            this.resetFilter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray;
-            this.resetFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.resetFilter.Image = global::WatchStore.Properties.Resources.icons8_обновить_24;
-            this.resetFilter.Location = new System.Drawing.Point(304, 1);
-            this.resetFilter.Margin = new System.Windows.Forms.Padding(0);
-            this.resetFilter.Name = "resetFilter";
-            this.resetFilter.Size = new System.Drawing.Size(25, 25);
-            this.resetFilter.TabIndex = 13;
-            this.resetFilter.UseVisualStyleBackColor = true;
-            // 
             // typeCb
             // 
             this.typeCb.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -195,7 +179,7 @@
             this.typeCb.FormattingEnabled = true;
             this.typeCb.Location = new System.Drawing.Point(3, 3);
             this.typeCb.Name = "typeCb";
-            this.typeCb.Size = new System.Drawing.Size(124, 21);
+            this.typeCb.Size = new System.Drawing.Size(121, 21);
             this.typeCb.TabIndex = 15;
             this.typeCb.Tag = "";
             // 
@@ -204,28 +188,36 @@
             this.genderCb.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.genderCb.FormattingEnabled = true;
             this.genderCb.Items.AddRange(new object[] {
-            "Выполнено",
-            "Не выполнено"});
-            this.genderCb.Location = new System.Drawing.Point(133, 3);
+            "Мужские",
+            "Женские"});
+            this.genderCb.Location = new System.Drawing.Point(130, 3);
             this.genderCb.Name = "genderCb";
             this.genderCb.Size = new System.Drawing.Size(128, 21);
             this.genderCb.TabIndex = 16;
             // 
-            // dtSerch
+            // Footerpanel
             // 
-            this.dtSerch.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.dtSerch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.dtSerch.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dtSerch.FlatAppearance.BorderSize = 0;
-            this.dtSerch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray;
-            this.dtSerch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dtSerch.Image = global::WatchStore.Properties.Resources.icons8_поиск_24__1_;
-            this.dtSerch.Location = new System.Drawing.Point(271, 1);
-            this.dtSerch.Margin = new System.Windows.Forms.Padding(0);
-            this.dtSerch.Name = "dtSerch";
-            this.dtSerch.Size = new System.Drawing.Size(25, 25);
-            this.dtSerch.TabIndex = 12;
-            this.dtSerch.UseVisualStyleBackColor = true;
+            this.Footerpanel.Controls.Add(this.tableLayoutPanel10);
+            this.Footerpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Footerpanel.Location = new System.Drawing.Point(3, 608);
+            this.Footerpanel.Name = "Footerpanel";
+            this.Footerpanel.Size = new System.Drawing.Size(994, 39);
+            this.Footerpanel.TabIndex = 15;
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.ColumnCount = 2;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel10.Controls.Add(this.loadBackbt, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.loadMorebt, 1, 0);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 1;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(994, 39);
+            this.tableLayoutPanel10.TabIndex = 0;
             // 
             // ManetableLayoutPanel
             // 
@@ -248,7 +240,6 @@
             this.ManetableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.ManetableLayoutPanel.Size = new System.Drawing.Size(994, 559);
             this.ManetableLayoutPanel.TabIndex = 2;
-            this.ManetableLayoutPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.ManetableLayoutPanel_Paint);
             // 
             // panel1
             // 
@@ -263,8 +254,8 @@
             // 
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.label5, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.pictureBox2, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.costlb1, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.imagepb1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.flowLayoutPanel1, 0, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
@@ -276,76 +267,65 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(230, 260);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
-            // label5
+            // costlb1
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.label5.Location = new System.Drawing.Point(3, 236);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 24);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "1170 p";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = global::WatchStore.Properties.Resources.primer;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 6);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(224, 181);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.costlb1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.costlb1.AutoSize = true;
+            this.costlb1.BackColor = System.Drawing.Color.Transparent;
+            this.costlb1.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.costlb1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
+            this.costlb1.Location = new System.Drawing.Point(3, 236);
+            this.costlb1.Name = "costlb1";
+            this.costlb1.Size = new System.Drawing.Size(86, 24);
+            this.costlb1.TabIndex = 14;
+            this.costlb1.Text = "1170 p";
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Controls.Add(this.label4);
-            this.flowLayoutPanel1.Controls.Add(this.label1);
-            this.flowLayoutPanel1.Controls.Add(this.label3);
+            this.flowLayoutPanel1.Controls.Add(this.manufaclb1);
+            this.flowLayoutPanel1.Controls.Add(this.namelb1);
+            this.flowLayoutPanel1.Controls.Add(this.genderlb1);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 197);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(224, 36);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
-            // label4
+            // manufaclb1
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(3, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 19);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Casio";
+            this.manufaclb1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.manufaclb1.AutoSize = true;
+            this.manufaclb1.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.manufaclb1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.manufaclb1.Location = new System.Drawing.Point(3, 0);
+            this.manufaclb1.Name = "manufaclb1";
+            this.manufaclb1.Size = new System.Drawing.Size(54, 19);
+            this.manufaclb1.TabIndex = 12;
+            this.manufaclb1.Text = "Casio";
             // 
-            // label1
+            // namelb1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(63, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 19);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "G-Shock";
+            this.namelb1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.namelb1.AutoSize = true;
+            this.namelb1.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.namelb1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.namelb1.Location = new System.Drawing.Point(63, 0);
+            this.namelb1.Name = "namelb1";
+            this.namelb1.Size = new System.Drawing.Size(80, 19);
+            this.namelb1.TabIndex = 13;
+            this.namelb1.Text = "G-Shock";
             // 
-            // label3
+            // genderlb1
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(3, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 19);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Мужские";
+            this.genderlb1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.genderlb1.AutoSize = true;
+            this.genderlb1.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.genderlb1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.genderlb1.Location = new System.Drawing.Point(3, 19);
+            this.genderlb1.Name = "genderlb1";
+            this.genderlb1.Size = new System.Drawing.Size(90, 19);
+            this.genderlb1.TabIndex = 14;
+            this.genderlb1.Text = "Мужские";
             // 
             // panel2
             // 
@@ -360,8 +340,8 @@
             // 
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.label2, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.costlb2, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.imagepb2, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.flowLayoutPanel2, 0, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
@@ -373,76 +353,65 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(230, 260);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // label2
+            // costlb2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.label2.Location = new System.Drawing.Point(3, 236);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 24);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "1170 p";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = global::WatchStore.Properties.Resources.primer;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(224, 181);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.costlb2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.costlb2.AutoSize = true;
+            this.costlb2.BackColor = System.Drawing.Color.Transparent;
+            this.costlb2.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.costlb2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
+            this.costlb2.Location = new System.Drawing.Point(3, 236);
+            this.costlb2.Name = "costlb2";
+            this.costlb2.Size = new System.Drawing.Size(86, 24);
+            this.costlb2.TabIndex = 14;
+            this.costlb2.Text = "1170 p";
             // 
             // flowLayoutPanel2
             // 
-            this.flowLayoutPanel2.Controls.Add(this.label6);
-            this.flowLayoutPanel2.Controls.Add(this.label7);
-            this.flowLayoutPanel2.Controls.Add(this.label8);
+            this.flowLayoutPanel2.Controls.Add(this.manufaclb2);
+            this.flowLayoutPanel2.Controls.Add(this.namelb2);
+            this.flowLayoutPanel2.Controls.Add(this.genderlb2);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 197);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(224, 36);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
-            // label6
+            // manufaclb2
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(3, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 19);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Casio";
+            this.manufaclb2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.manufaclb2.AutoSize = true;
+            this.manufaclb2.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.manufaclb2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.manufaclb2.Location = new System.Drawing.Point(3, 0);
+            this.manufaclb2.Name = "manufaclb2";
+            this.manufaclb2.Size = new System.Drawing.Size(54, 19);
+            this.manufaclb2.TabIndex = 12;
+            this.manufaclb2.Text = "Casio";
             // 
-            // label7
+            // namelb2
             // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(63, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 19);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "G-Shock";
+            this.namelb2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.namelb2.AutoSize = true;
+            this.namelb2.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.namelb2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.namelb2.Location = new System.Drawing.Point(63, 0);
+            this.namelb2.Name = "namelb2";
+            this.namelb2.Size = new System.Drawing.Size(80, 19);
+            this.namelb2.TabIndex = 13;
+            this.namelb2.Text = "G-Shock";
             // 
-            // label8
+            // genderlb2
             // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label8.Location = new System.Drawing.Point(3, 19);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 19);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "Мужские";
+            this.genderlb2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.genderlb2.AutoSize = true;
+            this.genderlb2.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.genderlb2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.genderlb2.Location = new System.Drawing.Point(3, 19);
+            this.genderlb2.Name = "genderlb2";
+            this.genderlb2.Size = new System.Drawing.Size(90, 19);
+            this.genderlb2.TabIndex = 14;
+            this.genderlb2.Text = "Мужские";
             // 
             // panel3
             // 
@@ -457,8 +426,8 @@
             // 
             this.tableLayoutPanel4.ColumnCount = 1;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.label9, 0, 2);
-            this.tableLayoutPanel4.Controls.Add(this.pictureBox3, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.costlb3, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.imagepb3, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.flowLayoutPanel3, 0, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
@@ -470,76 +439,65 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(230, 260);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
-            // label9
+            // costlb3
             // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.label9.Location = new System.Drawing.Point(3, 236);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 24);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "1170 p";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox3.Image = global::WatchStore.Properties.Resources.primer;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 6);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(224, 181);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.costlb3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.costlb3.AutoSize = true;
+            this.costlb3.BackColor = System.Drawing.Color.Transparent;
+            this.costlb3.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.costlb3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
+            this.costlb3.Location = new System.Drawing.Point(3, 236);
+            this.costlb3.Name = "costlb3";
+            this.costlb3.Size = new System.Drawing.Size(86, 24);
+            this.costlb3.TabIndex = 14;
+            this.costlb3.Text = "1170 p";
             // 
             // flowLayoutPanel3
             // 
-            this.flowLayoutPanel3.Controls.Add(this.label10);
-            this.flowLayoutPanel3.Controls.Add(this.label11);
-            this.flowLayoutPanel3.Controls.Add(this.label12);
+            this.flowLayoutPanel3.Controls.Add(this.manufaclb3);
+            this.flowLayoutPanel3.Controls.Add(this.namelb3);
+            this.flowLayoutPanel3.Controls.Add(this.genderlb3);
             this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 197);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(224, 36);
             this.flowLayoutPanel3.TabIndex = 1;
             // 
-            // label10
+            // manufaclb3
             // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label10.Location = new System.Drawing.Point(3, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(54, 19);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Casio";
+            this.manufaclb3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.manufaclb3.AutoSize = true;
+            this.manufaclb3.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.manufaclb3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.manufaclb3.Location = new System.Drawing.Point(3, 0);
+            this.manufaclb3.Name = "manufaclb3";
+            this.manufaclb3.Size = new System.Drawing.Size(54, 19);
+            this.manufaclb3.TabIndex = 12;
+            this.manufaclb3.Text = "Casio";
             // 
-            // label11
+            // namelb3
             // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label11.Location = new System.Drawing.Point(63, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(80, 19);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "G-Shock";
+            this.namelb3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.namelb3.AutoSize = true;
+            this.namelb3.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.namelb3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.namelb3.Location = new System.Drawing.Point(63, 0);
+            this.namelb3.Name = "namelb3";
+            this.namelb3.Size = new System.Drawing.Size(80, 19);
+            this.namelb3.TabIndex = 13;
+            this.namelb3.Text = "G-Shock";
             // 
-            // label12
+            // genderlb3
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label12.Location = new System.Drawing.Point(3, 19);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 19);
-            this.label12.TabIndex = 14;
-            this.label12.Text = "Мужские";
+            this.genderlb3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.genderlb3.AutoSize = true;
+            this.genderlb3.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.genderlb3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.genderlb3.Location = new System.Drawing.Point(3, 19);
+            this.genderlb3.Name = "genderlb3";
+            this.genderlb3.Size = new System.Drawing.Size(90, 19);
+            this.genderlb3.TabIndex = 14;
+            this.genderlb3.Text = "Мужские";
             // 
             // panel4
             // 
@@ -554,8 +512,8 @@
             // 
             this.tableLayoutPanel5.ColumnCount = 1;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Controls.Add(this.label13, 0, 2);
-            this.tableLayoutPanel5.Controls.Add(this.pictureBox4, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.costlb4, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.imagepb4, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.flowLayoutPanel4, 0, 1);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
@@ -567,76 +525,65 @@
             this.tableLayoutPanel5.Size = new System.Drawing.Size(230, 260);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
-            // label13
+            // costlb4
             // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.label13.Location = new System.Drawing.Point(3, 236);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(86, 24);
-            this.label13.TabIndex = 14;
-            this.label13.Text = "1170 p";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox4.Image = global::WatchStore.Properties.Resources.primer;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 6);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(224, 181);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.costlb4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.costlb4.AutoSize = true;
+            this.costlb4.BackColor = System.Drawing.Color.Transparent;
+            this.costlb4.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.costlb4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
+            this.costlb4.Location = new System.Drawing.Point(3, 236);
+            this.costlb4.Name = "costlb4";
+            this.costlb4.Size = new System.Drawing.Size(86, 24);
+            this.costlb4.TabIndex = 14;
+            this.costlb4.Text = "1170 p";
             // 
             // flowLayoutPanel4
             // 
-            this.flowLayoutPanel4.Controls.Add(this.label14);
-            this.flowLayoutPanel4.Controls.Add(this.label15);
-            this.flowLayoutPanel4.Controls.Add(this.label16);
+            this.flowLayoutPanel4.Controls.Add(this.manufaclb4);
+            this.flowLayoutPanel4.Controls.Add(this.namelb4);
+            this.flowLayoutPanel4.Controls.Add(this.genderlb4);
             this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel4.Location = new System.Drawing.Point(3, 197);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(224, 36);
             this.flowLayoutPanel4.TabIndex = 1;
             // 
-            // label14
+            // manufaclb4
             // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label14.Location = new System.Drawing.Point(3, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(54, 19);
-            this.label14.TabIndex = 12;
-            this.label14.Text = "Casio";
+            this.manufaclb4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.manufaclb4.AutoSize = true;
+            this.manufaclb4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.manufaclb4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.manufaclb4.Location = new System.Drawing.Point(3, 0);
+            this.manufaclb4.Name = "manufaclb4";
+            this.manufaclb4.Size = new System.Drawing.Size(54, 19);
+            this.manufaclb4.TabIndex = 12;
+            this.manufaclb4.Text = "Casio";
             // 
-            // label15
+            // namelb4
             // 
-            this.label15.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label15.Location = new System.Drawing.Point(63, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(80, 19);
-            this.label15.TabIndex = 13;
-            this.label15.Text = "G-Shock";
+            this.namelb4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.namelb4.AutoSize = true;
+            this.namelb4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.namelb4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.namelb4.Location = new System.Drawing.Point(63, 0);
+            this.namelb4.Name = "namelb4";
+            this.namelb4.Size = new System.Drawing.Size(80, 19);
+            this.namelb4.TabIndex = 13;
+            this.namelb4.Text = "G-Shock";
             // 
-            // label16
+            // genderlb4
             // 
-            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label16.Location = new System.Drawing.Point(3, 19);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(90, 19);
-            this.label16.TabIndex = 14;
-            this.label16.Text = "Мужские";
+            this.genderlb4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.genderlb4.AutoSize = true;
+            this.genderlb4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.genderlb4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.genderlb4.Location = new System.Drawing.Point(3, 19);
+            this.genderlb4.Name = "genderlb4";
+            this.genderlb4.Size = new System.Drawing.Size(90, 19);
+            this.genderlb4.TabIndex = 14;
+            this.genderlb4.Text = "Мужские";
             // 
             // panel5
             // 
@@ -651,8 +598,8 @@
             // 
             this.tableLayoutPanel6.ColumnCount = 1;
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Controls.Add(this.label17, 0, 2);
-            this.tableLayoutPanel6.Controls.Add(this.pictureBox5, 0, 0);
+            this.tableLayoutPanel6.Controls.Add(this.costlb5, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.imagepb5, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.flowLayoutPanel5, 0, 1);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 0);
@@ -664,76 +611,65 @@
             this.tableLayoutPanel6.Size = new System.Drawing.Size(230, 260);
             this.tableLayoutPanel6.TabIndex = 0;
             // 
-            // label17
+            // costlb5
             // 
-            this.label17.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.label17.Location = new System.Drawing.Point(3, 236);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(86, 24);
-            this.label17.TabIndex = 14;
-            this.label17.Text = "1170 p";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox5.Image = global::WatchStore.Properties.Resources.primer;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 6);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(224, 181);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
+            this.costlb5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.costlb5.AutoSize = true;
+            this.costlb5.BackColor = System.Drawing.Color.Transparent;
+            this.costlb5.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.costlb5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
+            this.costlb5.Location = new System.Drawing.Point(3, 236);
+            this.costlb5.Name = "costlb5";
+            this.costlb5.Size = new System.Drawing.Size(86, 24);
+            this.costlb5.TabIndex = 14;
+            this.costlb5.Text = "1170 p";
             // 
             // flowLayoutPanel5
             // 
-            this.flowLayoutPanel5.Controls.Add(this.label18);
-            this.flowLayoutPanel5.Controls.Add(this.label19);
-            this.flowLayoutPanel5.Controls.Add(this.label20);
+            this.flowLayoutPanel5.Controls.Add(this.manufaclb5);
+            this.flowLayoutPanel5.Controls.Add(this.namelb5);
+            this.flowLayoutPanel5.Controls.Add(this.genderlb5);
             this.flowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel5.Location = new System.Drawing.Point(3, 197);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
             this.flowLayoutPanel5.Size = new System.Drawing.Size(224, 36);
             this.flowLayoutPanel5.TabIndex = 1;
             // 
-            // label18
+            // manufaclb5
             // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label18.Location = new System.Drawing.Point(3, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(54, 19);
-            this.label18.TabIndex = 12;
-            this.label18.Text = "Casio";
+            this.manufaclb5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.manufaclb5.AutoSize = true;
+            this.manufaclb5.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.manufaclb5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.manufaclb5.Location = new System.Drawing.Point(3, 0);
+            this.manufaclb5.Name = "manufaclb5";
+            this.manufaclb5.Size = new System.Drawing.Size(54, 19);
+            this.manufaclb5.TabIndex = 12;
+            this.manufaclb5.Text = "Casio";
             // 
-            // label19
+            // namelb5
             // 
-            this.label19.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label19.Location = new System.Drawing.Point(63, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(80, 19);
-            this.label19.TabIndex = 13;
-            this.label19.Text = "G-Shock";
+            this.namelb5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.namelb5.AutoSize = true;
+            this.namelb5.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.namelb5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.namelb5.Location = new System.Drawing.Point(63, 0);
+            this.namelb5.Name = "namelb5";
+            this.namelb5.Size = new System.Drawing.Size(80, 19);
+            this.namelb5.TabIndex = 13;
+            this.namelb5.Text = "G-Shock";
             // 
-            // label20
+            // genderlb5
             // 
-            this.label20.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label20.Location = new System.Drawing.Point(3, 19);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(90, 19);
-            this.label20.TabIndex = 14;
-            this.label20.Text = "Мужские";
+            this.genderlb5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.genderlb5.AutoSize = true;
+            this.genderlb5.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.genderlb5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.genderlb5.Location = new System.Drawing.Point(3, 19);
+            this.genderlb5.Name = "genderlb5";
+            this.genderlb5.Size = new System.Drawing.Size(90, 19);
+            this.genderlb5.TabIndex = 14;
+            this.genderlb5.Text = "Мужские";
             // 
             // panel6
             // 
@@ -748,8 +684,8 @@
             // 
             this.tableLayoutPanel7.ColumnCount = 1;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Controls.Add(this.label21, 0, 2);
-            this.tableLayoutPanel7.Controls.Add(this.pictureBox6, 0, 0);
+            this.tableLayoutPanel7.Controls.Add(this.costlb6, 0, 2);
+            this.tableLayoutPanel7.Controls.Add(this.imagepb6, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.flowLayoutPanel6, 0, 1);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 0);
@@ -761,129 +697,196 @@
             this.tableLayoutPanel7.Size = new System.Drawing.Size(230, 260);
             this.tableLayoutPanel7.TabIndex = 0;
             // 
-            // label21
+            // costlb6
             // 
-            this.label21.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.label21.Location = new System.Drawing.Point(3, 236);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(86, 24);
-            this.label21.TabIndex = 14;
-            this.label21.Text = "1170 p";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox6.Image = global::WatchStore.Properties.Resources.primer;
-            this.pictureBox6.Location = new System.Drawing.Point(3, 6);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(224, 181);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
+            this.costlb6.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.costlb6.AutoSize = true;
+            this.costlb6.BackColor = System.Drawing.Color.Transparent;
+            this.costlb6.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.costlb6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
+            this.costlb6.Location = new System.Drawing.Point(3, 236);
+            this.costlb6.Name = "costlb6";
+            this.costlb6.Size = new System.Drawing.Size(86, 24);
+            this.costlb6.TabIndex = 14;
+            this.costlb6.Text = "1170 p";
             // 
             // flowLayoutPanel6
             // 
-            this.flowLayoutPanel6.Controls.Add(this.label22);
-            this.flowLayoutPanel6.Controls.Add(this.label23);
-            this.flowLayoutPanel6.Controls.Add(this.label24);
+            this.flowLayoutPanel6.Controls.Add(this.manufaclb6);
+            this.flowLayoutPanel6.Controls.Add(this.namelb6);
+            this.flowLayoutPanel6.Controls.Add(this.genderlb6);
             this.flowLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel6.Location = new System.Drawing.Point(3, 197);
             this.flowLayoutPanel6.Name = "flowLayoutPanel6";
             this.flowLayoutPanel6.Size = new System.Drawing.Size(224, 36);
             this.flowLayoutPanel6.TabIndex = 1;
             // 
-            // label22
+            // manufaclb6
             // 
-            this.label22.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label22.Location = new System.Drawing.Point(3, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(54, 19);
-            this.label22.TabIndex = 12;
-            this.label22.Text = "Casio";
+            this.manufaclb6.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.manufaclb6.AutoSize = true;
+            this.manufaclb6.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.manufaclb6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.manufaclb6.Location = new System.Drawing.Point(3, 0);
+            this.manufaclb6.Name = "manufaclb6";
+            this.manufaclb6.Size = new System.Drawing.Size(54, 19);
+            this.manufaclb6.TabIndex = 12;
+            this.manufaclb6.Text = "Casio";
             // 
-            // label23
+            // namelb6
             // 
-            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label23.Location = new System.Drawing.Point(63, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(80, 19);
-            this.label23.TabIndex = 13;
-            this.label23.Text = "G-Shock";
+            this.namelb6.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.namelb6.AutoSize = true;
+            this.namelb6.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.namelb6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.namelb6.Location = new System.Drawing.Point(63, 0);
+            this.namelb6.Name = "namelb6";
+            this.namelb6.Size = new System.Drawing.Size(80, 19);
+            this.namelb6.TabIndex = 13;
+            this.namelb6.Text = "G-Shock";
             // 
-            // label24
+            // genderlb6
             // 
-            this.label24.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label24.Location = new System.Drawing.Point(3, 19);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(90, 19);
-            this.label24.TabIndex = 14;
-            this.label24.Text = "Мужские";
+            this.genderlb6.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.genderlb6.AutoSize = true;
+            this.genderlb6.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.genderlb6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.genderlb6.Location = new System.Drawing.Point(3, 19);
+            this.genderlb6.Name = "genderlb6";
+            this.genderlb6.Size = new System.Drawing.Size(90, 19);
+            this.genderlb6.TabIndex = 14;
+            this.genderlb6.Text = "Мужские";
             // 
-            // tableLayoutPanel10
+            // resetFilter
             // 
-            this.tableLayoutPanel10.ColumnCount = 2;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.morebt, 1, 0);
-            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 1;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(994, 39);
-            this.tableLayoutPanel10.TabIndex = 0;
+            this.resetFilter.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.resetFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.resetFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resetFilter.FlatAppearance.BorderSize = 0;
+            this.resetFilter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray;
+            this.resetFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.resetFilter.Image = global::WatchStore.Properties.Resources.icons8_обновить_24;
+            this.resetFilter.Location = new System.Drawing.Point(298, 1);
+            this.resetFilter.Margin = new System.Windows.Forms.Padding(0);
+            this.resetFilter.Name = "resetFilter";
+            this.resetFilter.Size = new System.Drawing.Size(25, 25);
+            this.resetFilter.TabIndex = 13;
+            this.resetFilter.UseVisualStyleBackColor = true;
+            this.resetFilter.Click += new System.EventHandler(this.resetFilter_Click);
             // 
-            // morebt
+            // dtSerch
             // 
-            this.morebt.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.morebt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.morebt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.morebt.FlatAppearance.BorderSize = 0;
-            this.morebt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.morebt.Image = global::WatchStore.Properties.Resources.icons8_стрелка_вправо_в_круге_35;
-            this.morebt.Location = new System.Drawing.Point(500, 3);
-            this.morebt.Name = "morebt";
-            this.morebt.Size = new System.Drawing.Size(35, 33);
-            this.morebt.TabIndex = 9;
-            this.morebt.UseVisualStyleBackColor = true;
+            this.dtSerch.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dtSerch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.dtSerch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dtSerch.FlatAppearance.BorderSize = 0;
+            this.dtSerch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray;
+            this.dtSerch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dtSerch.Image = global::WatchStore.Properties.Resources.icons8_поиск_24__1_;
+            this.dtSerch.Location = new System.Drawing.Point(265, 1);
+            this.dtSerch.Margin = new System.Windows.Forms.Padding(0);
+            this.dtSerch.Name = "dtSerch";
+            this.dtSerch.Size = new System.Drawing.Size(25, 25);
+            this.dtSerch.TabIndex = 12;
+            this.dtSerch.UseVisualStyleBackColor = true;
+            this.dtSerch.Click += new System.EventHandler(this.dtSerch_Click);
             // 
-            // button1
+            // loadBackbt
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::WatchStore.Properties.Resources.icons8_стрелка_влево_в_круге_35;
-            this.button1.Location = new System.Drawing.Point(459, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(35, 33);
-            this.button1.TabIndex = 10;
-            this.button1.UseVisualStyleBackColor = true;
+            this.loadBackbt.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.loadBackbt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.loadBackbt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.loadBackbt.FlatAppearance.BorderSize = 0;
+            this.loadBackbt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.loadBackbt.ForeColor = System.Drawing.Color.White;
+            this.loadBackbt.Image = global::WatchStore.Properties.Resources.icons8_стрелка_влево_в_круге_35;
+            this.loadBackbt.Location = new System.Drawing.Point(459, 3);
+            this.loadBackbt.Name = "loadBackbt";
+            this.loadBackbt.Size = new System.Drawing.Size(35, 33);
+            this.loadBackbt.TabIndex = 10;
+            this.loadBackbt.UseVisualStyleBackColor = true;
+            this.loadBackbt.Click += new System.EventHandler(this.loadBackbt_Click);
             // 
-            // Footerpanel
+            // loadMorebt
             // 
-            this.Footerpanel.Controls.Add(this.tableLayoutPanel10);
-            this.Footerpanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Footerpanel.Location = new System.Drawing.Point(3, 608);
-            this.Footerpanel.Name = "Footerpanel";
-            this.Footerpanel.Size = new System.Drawing.Size(994, 39);
-            this.Footerpanel.TabIndex = 15;
+            this.loadMorebt.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.loadMorebt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.loadMorebt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.loadMorebt.FlatAppearance.BorderSize = 0;
+            this.loadMorebt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.loadMorebt.Image = global::WatchStore.Properties.Resources.icons8_стрелка_вправо_в_круге_35;
+            this.loadMorebt.Location = new System.Drawing.Point(500, 3);
+            this.loadMorebt.Name = "loadMorebt";
+            this.loadMorebt.Size = new System.Drawing.Size(35, 33);
+            this.loadMorebt.TabIndex = 9;
+            this.loadMorebt.UseVisualStyleBackColor = true;
+            this.loadMorebt.Click += new System.EventHandler(this.loadMorebt_Click);
+            // 
+            // imagepb1
+            // 
+            this.imagepb1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imagepb1.Image = global::WatchStore.Properties.Resources.primer;
+            this.imagepb1.Location = new System.Drawing.Point(3, 6);
+            this.imagepb1.Name = "imagepb1";
+            this.imagepb1.Size = new System.Drawing.Size(224, 181);
+            this.imagepb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagepb1.TabIndex = 0;
+            this.imagepb1.TabStop = false;
+            // 
+            // imagepb2
+            // 
+            this.imagepb2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imagepb2.Image = global::WatchStore.Properties.Resources.primer;
+            this.imagepb2.Location = new System.Drawing.Point(3, 6);
+            this.imagepb2.Name = "imagepb2";
+            this.imagepb2.Size = new System.Drawing.Size(224, 181);
+            this.imagepb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagepb2.TabIndex = 0;
+            this.imagepb2.TabStop = false;
+            // 
+            // imagepb3
+            // 
+            this.imagepb3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imagepb3.Image = global::WatchStore.Properties.Resources.primer;
+            this.imagepb3.Location = new System.Drawing.Point(3, 6);
+            this.imagepb3.Name = "imagepb3";
+            this.imagepb3.Size = new System.Drawing.Size(224, 181);
+            this.imagepb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagepb3.TabIndex = 0;
+            this.imagepb3.TabStop = false;
+            // 
+            // imagepb4
+            // 
+            this.imagepb4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imagepb4.Image = global::WatchStore.Properties.Resources.primer;
+            this.imagepb4.Location = new System.Drawing.Point(3, 6);
+            this.imagepb4.Name = "imagepb4";
+            this.imagepb4.Size = new System.Drawing.Size(224, 181);
+            this.imagepb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagepb4.TabIndex = 0;
+            this.imagepb4.TabStop = false;
+            // 
+            // imagepb5
+            // 
+            this.imagepb5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imagepb5.Image = global::WatchStore.Properties.Resources.primer;
+            this.imagepb5.Location = new System.Drawing.Point(3, 6);
+            this.imagepb5.Name = "imagepb5";
+            this.imagepb5.Size = new System.Drawing.Size(224, 181);
+            this.imagepb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagepb5.TabIndex = 0;
+            this.imagepb5.TabStop = false;
+            // 
+            // imagepb6
+            // 
+            this.imagepb6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imagepb6.Image = global::WatchStore.Properties.Resources.primer;
+            this.imagepb6.Location = new System.Drawing.Point(3, 6);
+            this.imagepb6.Name = "imagepb6";
+            this.imagepb6.Size = new System.Drawing.Size(224, 181);
+            this.imagepb6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagepb6.TabIndex = 0;
+            this.imagepb6.TabStop = false;
             // 
             // Katalog
             // 
@@ -896,45 +899,45 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
             this.tableLayoutPanel9.ResumeLayout(false);
+            this.Footerpanel.ResumeLayout(false);
+            this.tableLayoutPanel10.ResumeLayout(false);
             this.ManetableLayoutPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.flowLayoutPanel3.ResumeLayout(false);
             this.flowLayoutPanel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.flowLayoutPanel4.ResumeLayout(false);
             this.flowLayoutPanel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.flowLayoutPanel5.ResumeLayout(false);
             this.flowLayoutPanel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.flowLayoutPanel6.ResumeLayout(false);
             this.flowLayoutPanel6.PerformLayout();
-            this.tableLayoutPanel10.ResumeLayout(false);
-            this.Footerpanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagepb6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -945,12 +948,12 @@
         private System.Windows.Forms.TableLayoutPanel ManetableLayoutPanel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label costlb1;
+        private System.Windows.Forms.PictureBox imagepb1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label manufaclb1;
+        private System.Windows.Forms.Label namelb1;
+        private System.Windows.Forms.Label genderlb1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
         private System.Windows.Forms.Button resetFilter;
@@ -959,47 +962,47 @@
         private System.Windows.Forms.ComboBox genderCb;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label costlb2;
+        private System.Windows.Forms.PictureBox imagepb2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label manufaclb2;
+        private System.Windows.Forms.Label namelb2;
+        private System.Windows.Forms.Label genderlb2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label costlb3;
+        private System.Windows.Forms.PictureBox imagepb3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label manufaclb3;
+        private System.Windows.Forms.Label namelb3;
+        private System.Windows.Forms.Label genderlb3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label costlb4;
+        private System.Windows.Forms.PictureBox imagepb4;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label manufaclb4;
+        private System.Windows.Forms.Label namelb4;
+        private System.Windows.Forms.Label genderlb4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label costlb5;
+        private System.Windows.Forms.PictureBox imagepb5;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label manufaclb5;
+        private System.Windows.Forms.Label namelb5;
+        private System.Windows.Forms.Label genderlb5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label costlb6;
+        private System.Windows.Forms.PictureBox imagepb6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label manufaclb6;
+        private System.Windows.Forms.Label namelb6;
+        private System.Windows.Forms.Label genderlb6;
         private System.Windows.Forms.Panel Footerpanel;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button morebt;
+        private System.Windows.Forms.Button loadBackbt;
+        private System.Windows.Forms.Button loadMorebt;
     }
 }

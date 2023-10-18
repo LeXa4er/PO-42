@@ -93,6 +93,16 @@ namespace WatchStore.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_добавить_изображение_38 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-добавить-изображение-38", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_добавить_пользователя_40__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-добавить-пользователя-40 (1)", resourceCulture);
@@ -246,16 +256,6 @@ namespace WatchStore.Properties {
         internal static System.Drawing.Bitmap primer {
             get {
                 object obj = ResourceManager.GetObject("primer", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap вопрос {
-            get {
-                object obj = ResourceManager.GetObject("вопрос", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

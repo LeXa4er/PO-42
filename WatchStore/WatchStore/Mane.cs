@@ -15,25 +15,36 @@ namespace WatchStore
 {
     public partial class Mane : Form
     {
-        
+         int clientIndex;
 
-        public Mane()
+
+        public Mane(int clientIndex)
         {
             InitializeComponent();
+            this.clientIndex = clientIndex;
         }
 
         private void Mane_Load(object sender, EventArgs e)
         {
             Katalog katal = new Katalog();
             LoadControl(katal);
+            if (clientIndex > 0)
+            {
+                btClients.Visible = false;
+                btSales.Visible = false;
+                btWatch.Visible = false;
+                btAdmins.Visible = false;
+            }
+            
         }
 
-        public void LoadControl(UserControl userControl)
+        private void LoadControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;  
             panelMane.Controls.Clear();
             panelMane.Controls.Add(userControl);
             userControl.BringToFront();
+           
         }
 
 
@@ -99,7 +110,5 @@ namespace WatchStore
             btmaxed.Visible = false;
             btmax.Visible = true;
         }
-
-
     }
 }

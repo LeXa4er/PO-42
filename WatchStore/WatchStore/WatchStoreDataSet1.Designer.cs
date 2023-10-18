@@ -20,9 +20,9 @@ namespace WatchStore {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("WatchStoreDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("WatchStoreDataSet1")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class WatchStoreDataSet : global::System.Data.DataSet {
+    public partial class WatchStoreDataSet1 : global::System.Data.DataSet {
         
         private AdminDataTable tableAdmin;
         
@@ -48,7 +48,7 @@ namespace WatchStore {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public WatchStoreDataSet() {
+        public WatchStoreDataSet1() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -59,7 +59,7 @@ namespace WatchStore {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected WatchStoreDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected WatchStoreDataSet1(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -210,7 +210,7 @@ namespace WatchStore {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            WatchStoreDataSet cln = ((WatchStoreDataSet)(base.Clone()));
+            WatchStoreDataSet1 cln = ((WatchStoreDataSet1)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -331,9 +331,9 @@ namespace WatchStore {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "WatchStoreDataSet";
+            this.DataSetName = "WatchStoreDataSet1";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/WatchStoreDataSet.xsd";
+            this.Namespace = "http://tempuri.org/WatchStoreDataSet1.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableAdmin = new AdminDataTable();
@@ -413,7 +413,7 @@ namespace WatchStore {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            WatchStoreDataSet ds = new WatchStoreDataSet();
+            WatchStoreDataSet1 ds = new WatchStoreDataSet1();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -710,7 +710,7 @@ namespace WatchStore {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WatchStoreDataSet ds = new WatchStoreDataSet();
+                WatchStoreDataSet1 ds = new WatchStoreDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1020,7 +1020,7 @@ namespace WatchStore {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WatchStoreDataSet ds = new WatchStoreDataSet();
+                WatchStoreDataSet1 ds = new WatchStoreDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1298,7 +1298,7 @@ namespace WatchStore {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WatchStoreDataSet ds = new WatchStoreDataSet();
+                WatchStoreDataSet1 ds = new WatchStoreDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1611,7 +1611,7 @@ namespace WatchStore {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WatchStoreDataSet ds = new WatchStoreDataSet();
+                WatchStoreDataSet1 ds = new WatchStoreDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1889,7 +1889,7 @@ namespace WatchStore {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WatchStoreDataSet ds = new WatchStoreDataSet();
+                WatchStoreDataSet1 ds = new WatchStoreDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2298,7 +2298,7 @@ namespace WatchStore {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WatchStoreDataSet ds = new WatchStoreDataSet();
+                WatchStoreDataSet1 ds = new WatchStoreDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3015,7 +3015,7 @@ namespace WatchStore {
         }
     }
 }
-namespace WatchStore.WatchStoreDataSetTableAdapters {
+namespace WatchStore.WatchStoreDataSet1TableAdapters {
     
     
     /// <summary>
@@ -3194,7 +3194,7 @@ namespace WatchStore.WatchStoreDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WatchStoreDataSet.AdminDataTable dataTable) {
+        public virtual int Fill(WatchStoreDataSet1.AdminDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3207,9 +3207,9 @@ namespace WatchStore.WatchStoreDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WatchStoreDataSet.AdminDataTable GetData() {
+        public virtual WatchStoreDataSet1.AdminDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WatchStoreDataSet.AdminDataTable dataTable = new WatchStoreDataSet.AdminDataTable();
+            WatchStoreDataSet1.AdminDataTable dataTable = new WatchStoreDataSet1.AdminDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3217,14 +3217,14 @@ namespace WatchStore.WatchStoreDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet.AdminDataTable dataTable) {
+        public virtual int Update(WatchStoreDataSet1.AdminDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet dataSet) {
+        public virtual int Update(WatchStoreDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Admin");
         }
         
@@ -3547,7 +3547,7 @@ SELECT ID_clients, Login, Password, Full_name FROM Clients WHERE (ID_clients = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WatchStoreDataSet.ClientsDataTable dataTable) {
+        public virtual int Fill(WatchStoreDataSet1.ClientsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3560,9 +3560,9 @@ SELECT ID_clients, Login, Password, Full_name FROM Clients WHERE (ID_clients = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WatchStoreDataSet.ClientsDataTable GetData() {
+        public virtual WatchStoreDataSet1.ClientsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WatchStoreDataSet.ClientsDataTable dataTable = new WatchStoreDataSet.ClientsDataTable();
+            WatchStoreDataSet1.ClientsDataTable dataTable = new WatchStoreDataSet1.ClientsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3570,14 +3570,14 @@ SELECT ID_clients, Login, Password, Full_name FROM Clients WHERE (ID_clients = @
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet.ClientsDataTable dataTable) {
+        public virtual int Update(WatchStoreDataSet1.ClientsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet dataSet) {
+        public virtual int Update(WatchStoreDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Clients");
         }
         
@@ -3913,7 +3913,7 @@ SELECT ID_manufacturer, Manufacturer FROM Manufacturers WHERE (ID_manufacturer =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WatchStoreDataSet.ManufacturersDataTable dataTable) {
+        public virtual int Fill(WatchStoreDataSet1.ManufacturersDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3926,9 +3926,9 @@ SELECT ID_manufacturer, Manufacturer FROM Manufacturers WHERE (ID_manufacturer =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WatchStoreDataSet.ManufacturersDataTable GetData() {
+        public virtual WatchStoreDataSet1.ManufacturersDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WatchStoreDataSet.ManufacturersDataTable dataTable = new WatchStoreDataSet.ManufacturersDataTable();
+            WatchStoreDataSet1.ManufacturersDataTable dataTable = new WatchStoreDataSet1.ManufacturersDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3936,14 +3936,14 @@ SELECT ID_manufacturer, Manufacturer FROM Manufacturers WHERE (ID_manufacturer =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet.ManufacturersDataTable dataTable) {
+        public virtual int Update(WatchStoreDataSet1.ManufacturersDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet dataSet) {
+        public virtual int Update(WatchStoreDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Manufacturers");
         }
         
@@ -4242,7 +4242,7 @@ SELECT ID_Sales, ID_watch, ID_clients, Date_sale FROM Sales WHERE (ID_Sales = @I
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WatchStoreDataSet.SalesDataTable dataTable) {
+        public virtual int Fill(WatchStoreDataSet1.SalesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4255,9 +4255,9 @@ SELECT ID_Sales, ID_watch, ID_clients, Date_sale FROM Sales WHERE (ID_Sales = @I
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WatchStoreDataSet.SalesDataTable GetData() {
+        public virtual WatchStoreDataSet1.SalesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WatchStoreDataSet.SalesDataTable dataTable = new WatchStoreDataSet.SalesDataTable();
+            WatchStoreDataSet1.SalesDataTable dataTable = new WatchStoreDataSet1.SalesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4265,14 +4265,14 @@ SELECT ID_Sales, ID_watch, ID_clients, Date_sale FROM Sales WHERE (ID_Sales = @I
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet.SalesDataTable dataTable) {
+        public virtual int Update(WatchStoreDataSet1.SalesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet dataSet) {
+        public virtual int Update(WatchStoreDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Sales");
         }
         
@@ -4548,7 +4548,7 @@ SELECT ID_Sales, ID_watch, ID_clients, Date_sale FROM Sales WHERE (ID_Sales = @I
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WatchStoreDataSet.TypesDataTable dataTable) {
+        public virtual int Fill(WatchStoreDataSet1.TypesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4561,9 +4561,9 @@ SELECT ID_Sales, ID_watch, ID_clients, Date_sale FROM Sales WHERE (ID_Sales = @I
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WatchStoreDataSet.TypesDataTable GetData() {
+        public virtual WatchStoreDataSet1.TypesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WatchStoreDataSet.TypesDataTable dataTable = new WatchStoreDataSet.TypesDataTable();
+            WatchStoreDataSet1.TypesDataTable dataTable = new WatchStoreDataSet1.TypesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4571,14 +4571,14 @@ SELECT ID_Sales, ID_watch, ID_clients, Date_sale FROM Sales WHERE (ID_Sales = @I
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet.TypesDataTable dataTable) {
+        public virtual int Update(WatchStoreDataSet1.TypesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet dataSet) {
+        public virtual int Update(WatchStoreDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Types");
         }
         
@@ -4905,7 +4905,7 @@ SELECT ID_watch, ID_type, ID_manufacturer, Model, Country, Gender, Opisanie, ima
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WatchStoreDataSet.WatchsDataTable dataTable) {
+        public virtual int Fill(WatchStoreDataSet1.WatchsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4918,9 +4918,9 @@ SELECT ID_watch, ID_type, ID_manufacturer, Model, Country, Gender, Opisanie, ima
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WatchStoreDataSet.WatchsDataTable GetData() {
+        public virtual WatchStoreDataSet1.WatchsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WatchStoreDataSet.WatchsDataTable dataTable = new WatchStoreDataSet.WatchsDataTable();
+            WatchStoreDataSet1.WatchsDataTable dataTable = new WatchStoreDataSet1.WatchsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4928,14 +4928,14 @@ SELECT ID_watch, ID_type, ID_manufacturer, Model, Country, Gender, Opisanie, ima
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet.WatchsDataTable dataTable) {
+        public virtual int Update(WatchStoreDataSet1.WatchsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WatchStoreDataSet dataSet) {
+        public virtual int Update(WatchStoreDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Watchs");
         }
         
@@ -5430,7 +5430,7 @@ SELECT ID_watch, ID_type, ID_manufacturer, Model, Country, Gender, Opisanie, ima
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(WatchStoreDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(WatchStoreDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._manufacturersTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Manufacturers.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -5494,7 +5494,7 @@ SELECT ID_watch, ID_type, ID_manufacturer, Model, Country, Gender, Opisanie, ima
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(WatchStoreDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(WatchStoreDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._manufacturersTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Manufacturers.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -5552,7 +5552,7 @@ SELECT ID_watch, ID_type, ID_manufacturer, Model, Country, Gender, Opisanie, ima
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(WatchStoreDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(WatchStoreDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._salesTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.Sales.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -5634,7 +5634,7 @@ SELECT ID_watch, ID_type, ID_manufacturer, Model, Country, Gender, Opisanie, ima
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(WatchStoreDataSet dataSet) {
+        public virtual int UpdateAll(WatchStoreDataSet1 dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
