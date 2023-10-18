@@ -3,6 +3,7 @@ using _3Days.Forms;
 using _3Days.ManeLogic;
 using ForProject;
 using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace _3Days
@@ -93,6 +94,7 @@ namespace _3Days
 
                 OpenAdminPanel2.Visible = false;
                 OpenAdminPanel1.Visible = false;
+                AddUsersButton.Visible = false;
             }
         }
 
@@ -116,6 +118,28 @@ namespace _3Days
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             _loginForm.Show();
+        }
+
+        private void MainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void UsernameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new AdminPanel3(this).Show();
+
+            Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, Directory.GetCurrentDirectory() +  @"\..\..\Forms\helpProject.chm");
         }
     }
 }

@@ -95,5 +95,9 @@ namespace _3Days
             };
         }
 
+        private void CoachPhotoBox_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

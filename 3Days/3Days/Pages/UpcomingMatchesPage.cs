@@ -33,7 +33,7 @@ namespace _3Days
                 foreach (var match in matches)
                 {
                     Label date = ControlsCreator.CreateLabelForData();
-                    date.Text = match.Date.ToString();
+                    date.Text = match.Date.ToShortDateString();
                     date.TextAlign = ContentAlignment.MiddleCenter;
 
                     Label teams = ControlsCreator.CreateLabelForData();

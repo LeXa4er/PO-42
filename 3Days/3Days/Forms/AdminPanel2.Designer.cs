@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminPanel2));
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -80,6 +81,7 @@
             this.label10.Size = new System.Drawing.Size(150, 24);
             this.label10.TabIndex = 115;
             this.label10.Text = "Список матчей:";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // matchBox2
             // 
@@ -88,6 +90,7 @@
             this.matchBox2.Name = "matchBox2";
             this.matchBox2.Size = new System.Drawing.Size(166, 20);
             this.matchBox2.TabIndex = 114;
+            this.matchBox2.TextChanged += new System.EventHandler(this.matchBox2_TextChanged);
             // 
             // matchBox1
             // 
@@ -96,6 +99,7 @@
             this.matchBox1.Name = "matchBox1";
             this.matchBox1.Size = new System.Drawing.Size(166, 20);
             this.matchBox1.TabIndex = 113;
+            this.matchBox1.TextChanged += new System.EventHandler(this.matchBox1_TextChanged);
             // 
             // label1
             // 
@@ -108,6 +112,7 @@
             this.label1.Size = new System.Drawing.Size(131, 24);
             this.label1.TabIndex = 112;
             this.label1.Text = "ID команды 2:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -120,6 +125,7 @@
             this.label3.Size = new System.Drawing.Size(131, 24);
             this.label3.TabIndex = 111;
             this.label3.Text = "ID команды 1:\r\n";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // dataGridView2
             // 
@@ -140,6 +146,7 @@
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(459, 230);
             this.dataGridView2.TabIndex = 110;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // label2
             // 
@@ -152,6 +159,7 @@
             this.label2.Size = new System.Drawing.Size(59, 24);
             this.label2.TabIndex = 118;
             this.label2.Text = "Дата:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // matchBox3
             // 
@@ -160,6 +168,7 @@
             this.matchBox3.Name = "matchBox3";
             this.matchBox3.Size = new System.Drawing.Size(166, 20);
             this.matchBox3.TabIndex = 121;
+            this.matchBox3.TextChanged += new System.EventHandler(this.matchBox3_TextChanged);
             // 
             // label4
             // 
@@ -172,6 +181,7 @@
             this.label4.Size = new System.Drawing.Size(108, 24);
             this.label4.TabIndex = 120;
             this.label4.Text = "Результат:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // matchBox4
             // 
@@ -180,6 +190,7 @@
             this.matchBox4.Name = "matchBox4";
             this.matchBox4.Size = new System.Drawing.Size(166, 20);
             this.matchBox4.TabIndex = 123;
+            this.matchBox4.TextChanged += new System.EventHandler(this.matchBox4_TextChanged);
             // 
             // label5
             // 
@@ -192,6 +203,7 @@
             this.label5.Size = new System.Drawing.Size(105, 24);
             this.label5.TabIndex = 122;
             this.label5.Text = "Описание:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // dateTimePicker1
             // 
@@ -200,6 +212,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(166, 20);
             this.dateTimePicker1.TabIndex = 124;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // button2
             // 
@@ -233,7 +246,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(499, 489);
             this.Name = "AdminPanel2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Административная панель";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AdminPanel2_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

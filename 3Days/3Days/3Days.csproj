@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>_3Days</RootNamespace>
     <AssemblyName>3Days</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -64,6 +65,12 @@
     </Compile>
     <Compile Include="Forms\AdminPanel2.Designer.cs">
       <DependentUpon>AdminPanel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminPanel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminPanel3.Designer.cs">
+      <DependentUpon>AdminPanel3.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
@@ -126,6 +133,9 @@
     <EmbeddedResource Include="Forms\AdminPanel2.resx">
       <DependentUpon>AdminPanel2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminPanel3.resx">
+      <DependentUpon>AdminPanel3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,6 +164,7 @@
     <EmbeddedResource Include="Pages\UpcomingMatchesPage.resx">
       <DependentUpon>UpcomingMatchesPage.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Forms\helpProject.chm" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

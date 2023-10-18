@@ -47,11 +47,11 @@
             this.MatchesPanel.ColumnCount = 4;
             this.MatchesPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 170F));
             this.MatchesPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35F));
-            this.MatchesPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.MatchesPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 62F));
             this.MatchesPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65F));
             this.MatchesPanel.Location = new System.Drawing.Point(0, 31);
             this.MatchesPanel.Name = "MatchesPanel";
-            this.MatchesPanel.Padding = new System.Windows.Forms.Padding(1, 0, 1, 1);       
+            this.MatchesPanel.Padding = new System.Windows.Forms.Padding(1, 0, 1, 1);
             this.MatchesPanel.Size = new System.Drawing.Size(795, 395);
             this.MatchesPanel.TabIndex = 2;
             // 

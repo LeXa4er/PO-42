@@ -8,10 +8,11 @@ namespace _3Days.DataBase
 {
     internal static partial class DB
     {
-        private static string _connectionString = "Data Source=DESKTOP-RCMT604\\MSSQLSERVER22;Initial Catalog=Football;Integrated Security=True";
+        private static string _connectionString = "Data Source=RIINNOTEBOOK\\SQLEXPRESS01;Initial Catalog=Football;Integrated Security=True";
 
         public static SqlConnection GetNewOpenConnection()
         {
+            
             SqlConnection connection = new SqlConnection(_connectionString);
             connection.Open();
             return connection;
@@ -20,14 +21,14 @@ namespace _3Days.DataBase
         private static void ShowError(string message)
         {
             MessageBox.Show("Не удалось выполнить запрос. " + message, "Приложение не может продолжать работу"
-                , MessageBoxButtons.OK);
+                , MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             Application.Exit();
         }
 
         public static Coach GetCoach(int id)
         {
-            string queryText = $"SELECT {COACH_SURNAME}, {COACH_SURNAME}, {COACH_PATRONYMIC}, " +
+            string queryText = $"SELECT {COACH_SURNAME}, {COACH_NAME}, {COACH_PATRONYMIC}, " +
                 $"{COACH_BIOGRAPHY} FROM {COACHES_TABLE} WHERE {COACH_ID} = @coachId";
 
             try
@@ -60,7 +61,7 @@ namespace _3Days.DataBase
 
         public static List<Coach> GetCoaches()
         {
-            string queryText = $"SELECT {COACH_ID}, {COACH_SURNAME}, {COACH_SURNAME}, " +
+            string queryText = $"SELECT {COACH_ID}, {COACH_SURNAME}, {COACH_NAME}, " +
                 $"{COACH_PATRONYMIC}, {COACH_BIOGRAPHY}, {COACH_PHOTO} FROM {COACHES_TABLE}";
 
             List<Coach> coaches = new List<Coach>();
@@ -319,7 +320,7 @@ namespace _3Days.DataBase
                     {
                         if (!reader.IsDBNull(0))
                         {
-                            user.Name = reader.GetString(0);
+                            user.Name = reader.GetString(0) + " ";
 
                             if (!reader.IsDBNull(1))
                             {
@@ -371,6 +372,19 @@ namespace _3Days.DataBase
         public static void AddMatch(int ID_1, int ID_2, DateTime date, string result, string descr)
         {
             string addRequest = $"INSERT INTO {MATCHES_TABLE} VALUES ({ID_1},{ID_2},'{date}','{result}','{descr}');";
+            SqlConnection conn = new SqlConnection(_connectionString);
+            conn.Open();
+            SqlCommand sqlCommand = new SqlCommand(addRequest, conn);
+            sqlCommand.ExecuteNonQuery();
+            conn.Close();
+        }
+
+        public static void AddUser(string fam, string name, string otchestvo, string login, string password, bool admin)
+        {
+            byte status = 0;
+            if(admin) { status = 1; }
+
+            string addRequest = $"INSERT INTO {USER_TABLE} VALUES ('{fam}','{name}','{otchestvo}','{login}','{password}', {status});";
             SqlConnection conn = new SqlConnection(_connectionString);
             conn.Open();
             SqlCommand sqlCommand = new SqlCommand(addRequest, conn);

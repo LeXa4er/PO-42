@@ -30,10 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.MenuPanel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.AddUsersButton = new System.Windows.Forms.Button();
             this.OpenAdminPanel1 = new System.Windows.Forms.Button();
             this.OpenAdminPanel2 = new System.Windows.Forms.Button();
             this.CoachesButton = new System.Windows.Forms.Button();
@@ -54,6 +56,7 @@
             // 
             this.MenuPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.MenuPanel.Controls.Add(this.button1);
             this.MenuPanel.Controls.Add(this.button4);
             this.MenuPanel.Controls.Add(this.label1);
             this.MenuPanel.Controls.Add(this.pictureBox1);
@@ -62,10 +65,23 @@
             this.MenuPanel.Size = new System.Drawing.Size(200, 536);
             this.MenuPanel.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(35, 505);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 28);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Справка";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // button4
             // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(35, 503);
+            this.button4.Location = new System.Drawing.Point(35, 474);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(129, 28);
             this.button4.TabIndex = 3;
@@ -95,6 +111,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.AddUsersButton);
             this.panel1.Controls.Add(this.OpenAdminPanel1);
             this.panel1.Controls.Add(this.OpenAdminPanel2);
             this.panel1.Controls.Add(this.CoachesButton);
@@ -103,13 +120,24 @@
             this.panel1.Controls.Add(this.UpcomingMathesButto);
             this.panel1.Location = new System.Drawing.Point(2, 50);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 451);
+            this.panel1.Size = new System.Drawing.Size(200, 410);
             this.panel1.TabIndex = 1;
+            // 
+            // AddUsersButton
+            // 
+            this.AddUsersButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AddUsersButton.Location = new System.Drawing.Point(0, 343);
+            this.AddUsersButton.Name = "AddUsersButton";
+            this.AddUsersButton.Size = new System.Drawing.Size(200, 55);
+            this.AddUsersButton.TabIndex = 9;
+            this.AddUsersButton.Text = "Добавление пользователей";
+            this.AddUsersButton.UseVisualStyleBackColor = true;
+            this.AddUsersButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // OpenAdminPanel1
             // 
             this.OpenAdminPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.OpenAdminPanel1.Location = new System.Drawing.Point(0, 319);
+            this.OpenAdminPanel1.Location = new System.Drawing.Point(0, 282);
             this.OpenAdminPanel1.Name = "OpenAdminPanel1";
             this.OpenAdminPanel1.Size = new System.Drawing.Size(200, 55);
             this.OpenAdminPanel1.TabIndex = 8;
@@ -120,7 +148,7 @@
             // OpenAdminPanel2
             // 
             this.OpenAdminPanel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.OpenAdminPanel2.Location = new System.Drawing.Point(0, 263);
+            this.OpenAdminPanel2.Location = new System.Drawing.Point(0, 221);
             this.OpenAdminPanel2.Name = "OpenAdminPanel2";
             this.OpenAdminPanel2.Size = new System.Drawing.Size(200, 55);
             this.OpenAdminPanel2.TabIndex = 7;
@@ -176,7 +204,7 @@
             // 
             this.ExitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ExitButton.Location = new System.Drawing.Point(932, 495);
+            this.ExitButton.Location = new System.Drawing.Point(928, 495);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(75, 33);
             this.ExitButton.TabIndex = 3;
@@ -188,7 +216,7 @@
             // 
             this.BackButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BackButton.Location = new System.Drawing.Point(846, 495);
+            this.BackButton.Location = new System.Drawing.Point(842, 495);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(75, 33);
             this.BackButton.TabIndex = 4;
@@ -201,7 +229,7 @@
             this.SelectedPageCaption.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.SelectedPageCaption.AutoSize = true;
             this.SelectedPageCaption.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SelectedPageCaption.Location = new System.Drawing.Point(459, 12);
+            this.SelectedPageCaption.Location = new System.Drawing.Point(457, 12);
             this.SelectedPageCaption.Name = "SelectedPageCaption";
             this.SelectedPageCaption.Size = new System.Drawing.Size(211, 25);
             this.SelectedPageCaption.TabIndex = 5;
@@ -215,26 +243,28 @@
             this.MainPanel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.MainPanel.Location = new System.Drawing.Point(214, 55);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(795, 425);
+            this.MainPanel.Size = new System.Drawing.Size(791, 425);
             this.MainPanel.TabIndex = 6;
+            this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MainPanel_Paint);
             // 
             // UsernameLabel
             // 
             this.UsernameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.UsernameLabel.AutoSize = true;
             this.UsernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.UsernameLabel.Location = new System.Drawing.Point(881, 12);
+            this.UsernameLabel.Location = new System.Drawing.Point(877, 12);
             this.UsernameLabel.Name = "UsernameLabel";
             this.UsernameLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.UsernameLabel.Size = new System.Drawing.Size(129, 16);
             this.UsernameLabel.TabIndex = 7;
             this.UsernameLabel.Text = "Имя пользователя";
+            this.UsernameLabel.Click += new System.EventHandler(this.UsernameLabel_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 536);
+            this.ClientSize = new System.Drawing.Size(1019, 536);
             this.Controls.Add(this.UsernameLabel);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.SelectedPageCaption);
@@ -242,7 +272,10 @@
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.MenuPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(1035, 575);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Футболеры";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.Load += new System.EventHandler(this.OnManeFormLoad);
@@ -273,6 +306,8 @@
         private System.Windows.Forms.Button OpenAdminPanel2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label UsernameLabel;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddUsersButton;
     }
 }
 

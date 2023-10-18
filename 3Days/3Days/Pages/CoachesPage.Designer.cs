@@ -193,6 +193,7 @@
             this.CoachPhotoBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.CoachPhotoBox.TabIndex = 6;
             this.CoachPhotoBox.TabStop = false;
+            this.CoachPhotoBox.Click += new System.EventHandler(this.CoachPhotoBox_Click);
             // 
             // CoachesPage
             // 
