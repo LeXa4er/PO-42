@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WatchStore
 {
-    public class Clients
+    public class Clientss
     {
         public int id;
         public string name;
