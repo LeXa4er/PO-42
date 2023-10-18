@@ -1,0 +1,16 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=helpProject.chm
+Contents file=Table of Contents.hhc
+Display compile progress=No
+Index file=Index.hhk
+Language=0x419 Русский (Россия)
+
+
+[FILES]
+infoFile.htm
+author.htm
+howToUse.htm
+
+[INFOTYPES]
+
