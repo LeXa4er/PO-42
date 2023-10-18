@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9DC73E7-4A68-4216-AC5C-54FAD7A37EDB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WatchStore</RootNamespace>
+    <AssemblyName>WatchStore</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.5\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="authorization.Designer.cs">
+      <DependentUpon>authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mane.Designer.cs">
+      <DependentUpon>Mane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="o_prog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="o_prog.Designer.cs">
+      <DependentUpon>o_prog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registr.Designer.cs">
+      <DependentUpon>registr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Clients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\Clients.Designer.cs">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\DataBase.cs" />
+    <Compile Include="Resources\Katalog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\Katalog.Designer.cs">
+      <DependentUpon>Katalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Opisanie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\Opisanie.Designer.cs">
+      <DependentUpon>Opisanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Sales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Watchadd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Watchadd.Designer.cs">
+      <DependentUpon>Watchadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WatchStoreDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WatchStoreDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="authorization.resx">
+      <DependentUpon>authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mane.resx">
+      <DependentUpon>Mane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="o_prog.resx">
+      <DependentUpon>o_prog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registr.resx">
+      <DependentUpon>registr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Clients.resx">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Katalog.resx">
+      <DependentUpon>Katalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Opisanie.resx">
+      <DependentUpon>Opisanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Watchadd.resx">
+      <DependentUpon>Watchadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="WatchStoreDataSet.xsc">
+      <DependentUpon>WatchStoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WatchStoreDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WatchStoreDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WatchStoreDataSet.xss">
+      <DependentUpon>WatchStoreDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-закрыть-окно-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-демонстрация-экрана-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-свернуть-окно-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-скругленный-квадрат-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-пользователь-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-пользователь-40 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-пользователь-40 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-показать-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-спрятать-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-добавить-пользователя-40 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-часы---вид-спереди-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-стрелка-вправо-в-круге-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-стрелка-влево-в-круге-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-выход-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\primer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-поиск-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-обновить-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-информация-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-информация-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-информация-40 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icobut\icons8-добавить-изображение-38.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
