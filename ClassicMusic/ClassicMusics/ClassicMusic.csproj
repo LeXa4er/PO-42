@@ -66,19 +66,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminsClassicMusicDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminsClassicMusicDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Animation\Animation.cs" />
     <Compile Include="Animation\Animator.cs" />
-    <Compile Include="Forms\Editor3.cs">
+    <Compile Include="CDsClassicMusicDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CDsClassicMusicDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataBase.cs" />
+    <Compile Include="Forms\EditorCDs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Editor3.Designer.cs">
-      <DependentUpon>Editor3.cs</DependentUpon>
+    <Compile Include="Forms\EditorCDs.Designer.cs">
+      <DependentUpon>EditorCDs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Editor2.cs">
+    <Compile Include="Forms\EditorLPs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Editor2.Designer.cs">
-      <DependentUpon>Editor2.cs</DependentUpon>
+    <Compile Include="Forms\EditorLPs.Designer.cs">
+      <DependentUpon>EditorLPs.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\EditorAdmin.cs">
       <SubType>Form</SubType>
@@ -98,6 +109,11 @@
     <Compile Include="Forms\ProgrammInfo.Designer.cs">
       <DependentUpon>ProgrammInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="LPsClassicMusicDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LPsClassicMusicDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -109,17 +125,17 @@
     <Compile Include="Forms\RecordAdmin.Designer.cs">
       <DependentUpon>RecordAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Record2.cs">
+    <Compile Include="Forms\RecordLPs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Record2.Designer.cs">
-      <DependentUpon>Record2.cs</DependentUpon>
+    <Compile Include="Forms\RecordLPs.Designer.cs">
+      <DependentUpon>RecordLPs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Record3.cs">
+    <Compile Include="Forms\RecordCDs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Record3.Designer.cs">
-      <DependentUpon>Record3.cs</DependentUpon>
+    <Compile Include="Forms\RecordCDs.Designer.cs">
+      <DependentUpon>RecordCDs.cs</DependentUpon>
     </Compile>
     <Compile Include="Style\FormStyles.cs">
       <SubType>Component</SubType>
@@ -164,20 +180,20 @@
     <EmbeddedResource Include="Forms\EditorAdmin.resx">
       <DependentUpon>EditorAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Editor2.resx">
-      <DependentUpon>Editor2.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\EditorLPs.resx">
+      <DependentUpon>EditorLPs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Editor3.resx">
-      <DependentUpon>Editor3.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\EditorCDs.resx">
+      <DependentUpon>EditorCDs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ProgrammInfo.resx">
       <DependentUpon>ProgrammInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Record2.resx">
-      <DependentUpon>Record2.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\RecordLPs.resx">
+      <DependentUpon>RecordLPs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Record3.resx">
-      <DependentUpon>Record3.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\RecordCDs.resx">
+      <DependentUpon>RecordCDs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\RecordAdmin.resx">
       <DependentUpon>RecordAdmin.cs</DependentUpon>
@@ -193,6 +209,40 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="AdminsClassicMusicDataSet.xsc">
+      <DependentUpon>AdminsClassicMusicDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AdminsClassicMusicDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdminsClassicMusicDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AdminsClassicMusicDataSet.xss">
+      <DependentUpon>AdminsClassicMusicDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="CDsClassicMusicDataSet.xsc">
+      <DependentUpon>CDsClassicMusicDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CDsClassicMusicDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CDsClassicMusicDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CDsClassicMusicDataSet.xss">
+      <DependentUpon>CDsClassicMusicDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LPsClassicMusicDataSet.xsc">
+      <DependentUpon>LPsClassicMusicDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LPsClassicMusicDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LPsClassicMusicDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LPsClassicMusicDataSet.xss">
+      <DependentUpon>LPsClassicMusicDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Other\app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

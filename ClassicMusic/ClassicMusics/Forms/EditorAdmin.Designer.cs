@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditorAdmin));
             this.FormStyle1 = new yt_DesignUI.Components.FormStyles(this.components);
-            this.tab1BindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.AdminsBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
@@ -43,16 +43,28 @@
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tab1DataGridView = new System.Windows.Forms.DataGridView();
+            this.AdminsDataGridView = new System.Windows.Forms.DataGridView();
+            this.adminIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loginDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.passwordDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fullnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.birthdayDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.adminsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.adminsClassicMusicDataSet = new ClassicMusic.AdminsClassicMusicDataSet();
             this.labelTable = new System.Windows.Forms.Label();
             this.buttonBack = new yt_DesignUI.ButtonStyle();
             this.buttonUpdate = new yt_DesignUI.ButtonStyle();
             this.buttonFurther = new yt_DesignUI.ButtonStyle();
             this.buttonClose = new yt_DesignUI.ButtonStyle();
             this.buttonStyle1 = new yt_DesignUI.ButtonStyle();
-            ((System.ComponentModel.ISupportInitialize)(this.tab1BindingNavigator)).BeginInit();
-            this.tab1BindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tab1DataGridView)).BeginInit();
+            this.adminsTableAdapter = new ClassicMusic.AdminsClassicMusicDataSetTableAdapters.AdminsTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.AdminsBindingNavigator)).BeginInit();
+            this.AdminsBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AdminsDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adminsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adminsClassicMusicDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // FormStyle1
@@ -74,14 +86,14 @@
             this.FormStyle1.HeaderTextColor = System.Drawing.Color.White;
             this.FormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             // 
-            // tab1BindingNavigator
+            // AdminsBindingNavigator
             // 
-            this.tab1BindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.tab1BindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.tab1BindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.tab1BindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
-            this.tab1BindingNavigator.ImageScalingSize = new System.Drawing.Size(25, 25);
-            this.tab1BindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AdminsBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.AdminsBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.AdminsBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.AdminsBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
+            this.AdminsBindingNavigator.ImageScalingSize = new System.Drawing.Size(25, 25);
+            this.AdminsBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
             this.bindingNavigatorSeparator,
@@ -93,16 +105,16 @@
             this.bindingNavigatorSeparator2,
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem});
-            this.tab1BindingNavigator.Location = new System.Drawing.Point(251, 306);
-            this.tab1BindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.tab1BindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.tab1BindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.tab1BindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.tab1BindingNavigator.Name = "tab1BindingNavigator";
-            this.tab1BindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.tab1BindingNavigator.Size = new System.Drawing.Size(299, 32);
-            this.tab1BindingNavigator.TabIndex = 41;
-            this.tab1BindingNavigator.Text = "bindingNavigator1";
+            this.AdminsBindingNavigator.Location = new System.Drawing.Point(251, 306);
+            this.AdminsBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.AdminsBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.AdminsBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.AdminsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.AdminsBindingNavigator.Name = "AdminsBindingNavigator";
+            this.AdminsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.AdminsBindingNavigator.Size = new System.Drawing.Size(299, 32);
+            this.AdminsBindingNavigator.TabIndex = 41;
+            this.AdminsBindingNavigator.Text = "bindingNavigator1";
             // 
             // bindingNavigatorAddNewItem
             // 
@@ -190,13 +202,76 @@
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 32);
             // 
-            // tab1DataGridView
+            // AdminsDataGridView
             // 
-            this.tab1DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tab1DataGridView.Location = new System.Drawing.Point(61, 64);
-            this.tab1DataGridView.Name = "tab1DataGridView";
-            this.tab1DataGridView.Size = new System.Drawing.Size(676, 226);
-            this.tab1DataGridView.TabIndex = 42;
+            this.AdminsDataGridView.AutoGenerateColumns = false;
+            this.AdminsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.AdminsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.adminIDDataGridViewTextBoxColumn,
+            this.loginDataGridViewTextBoxColumn,
+            this.passwordDataGridViewTextBoxColumn,
+            this.fullnameDataGridViewTextBoxColumn,
+            this.birthdayDataGridViewTextBoxColumn,
+            this.phoneDataGridViewTextBoxColumn,
+            this.emailDataGridViewTextBoxColumn});
+            this.AdminsDataGridView.DataSource = this.adminsBindingSource;
+            this.AdminsDataGridView.Location = new System.Drawing.Point(12, 64);
+            this.AdminsDataGridView.Name = "AdminsDataGridView";
+            this.AdminsDataGridView.Size = new System.Drawing.Size(776, 226);
+            this.AdminsDataGridView.TabIndex = 42;
+            // 
+            // adminIDDataGridViewTextBoxColumn
+            // 
+            this.adminIDDataGridViewTextBoxColumn.DataPropertyName = "AdminID";
+            this.adminIDDataGridViewTextBoxColumn.HeaderText = "AdminID";
+            this.adminIDDataGridViewTextBoxColumn.Name = "adminIDDataGridViewTextBoxColumn";
+            this.adminIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // loginDataGridViewTextBoxColumn
+            // 
+            this.loginDataGridViewTextBoxColumn.DataPropertyName = "Login";
+            this.loginDataGridViewTextBoxColumn.HeaderText = "Login";
+            this.loginDataGridViewTextBoxColumn.Name = "loginDataGridViewTextBoxColumn";
+            // 
+            // passwordDataGridViewTextBoxColumn
+            // 
+            this.passwordDataGridViewTextBoxColumn.DataPropertyName = "Password";
+            this.passwordDataGridViewTextBoxColumn.HeaderText = "Password";
+            this.passwordDataGridViewTextBoxColumn.Name = "passwordDataGridViewTextBoxColumn";
+            // 
+            // fullnameDataGridViewTextBoxColumn
+            // 
+            this.fullnameDataGridViewTextBoxColumn.DataPropertyName = "Fullname";
+            this.fullnameDataGridViewTextBoxColumn.HeaderText = "Fullname";
+            this.fullnameDataGridViewTextBoxColumn.Name = "fullnameDataGridViewTextBoxColumn";
+            // 
+            // birthdayDataGridViewTextBoxColumn
+            // 
+            this.birthdayDataGridViewTextBoxColumn.DataPropertyName = "Birthday";
+            this.birthdayDataGridViewTextBoxColumn.HeaderText = "Birthday";
+            this.birthdayDataGridViewTextBoxColumn.Name = "birthdayDataGridViewTextBoxColumn";
+            // 
+            // phoneDataGridViewTextBoxColumn
+            // 
+            this.phoneDataGridViewTextBoxColumn.DataPropertyName = "Phone";
+            this.phoneDataGridViewTextBoxColumn.HeaderText = "Phone";
+            this.phoneDataGridViewTextBoxColumn.Name = "phoneDataGridViewTextBoxColumn";
+            // 
+            // emailDataGridViewTextBoxColumn
+            // 
+            this.emailDataGridViewTextBoxColumn.DataPropertyName = "Email";
+            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
+            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
+            // 
+            // adminsBindingSource
+            // 
+            this.adminsBindingSource.DataMember = "Admins";
+            this.adminsBindingSource.DataSource = this.adminsClassicMusicDataSet;
+            // 
+            // adminsClassicMusicDataSet
+            // 
+            this.adminsClassicMusicDataSet.DataSetName = "AdminsClassicMusicDataSet";
+            this.adminsClassicMusicDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // labelTable
             // 
@@ -266,6 +341,7 @@
             this.buttonUpdate.UseRippleEffect = true;
             this.buttonUpdate.UseVisualStyleBackColor = false;
             this.buttonUpdate.UseZoomEffectOnHover = false;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
             // buttonFurther
             // 
@@ -317,7 +393,7 @@
             this.buttonClose.RoundingEnable = true;
             this.buttonClose.Size = new System.Drawing.Size(95, 40);
             this.buttonClose.TabIndex = 61;
-            this.buttonClose.Text = "Назад";
+            this.buttonClose.Text = "Выйти";
             this.buttonClose.TextHover = null;
             this.buttonClose.UseDownPressEffectOnClick = true;
             this.buttonClose.UseRippleEffect = true;
@@ -354,7 +430,11 @@
             this.buttonStyle1.UseZoomEffectOnHover = false;
             this.buttonStyle1.Click += new System.EventHandler(this.buttonStyle1_Click_1);
             // 
-            // Editor1
+            // adminsTableAdapter
+            // 
+            this.adminsTableAdapter.ClearBeforeFill = true;
+            // 
+            // EditorAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -366,18 +446,21 @@
             this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.labelTable);
-            this.Controls.Add(this.tab1DataGridView);
-            this.Controls.Add(this.tab1BindingNavigator);
+            this.Controls.Add(this.AdminsDataGridView);
+            this.Controls.Add(this.AdminsBindingNavigator);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(816, 495);
             this.MinimumSize = new System.Drawing.Size(816, 495);
-            this.Name = "Editor1";
+            this.Name = "EditorAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Редактор";
-            ((System.ComponentModel.ISupportInitialize)(this.tab1BindingNavigator)).EndInit();
-            this.tab1BindingNavigator.ResumeLayout(false);
-            this.tab1BindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tab1DataGridView)).EndInit();
+            this.Text = "Редактор таблицы Администраторы";
+            this.Load += new System.EventHandler(this.EditorAdmin_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.AdminsBindingNavigator)).EndInit();
+            this.AdminsBindingNavigator.ResumeLayout(false);
+            this.AdminsBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AdminsDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adminsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adminsClassicMusicDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -386,7 +469,7 @@
         #endregion
 
         private yt_DesignUI.Components.FormStyles FormStyle1;
-        private System.Windows.Forms.BindingNavigator tab1BindingNavigator;
+        private System.Windows.Forms.BindingNavigator AdminsBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
@@ -398,12 +481,22 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.DataGridView tab1DataGridView;
+        private System.Windows.Forms.DataGridView AdminsDataGridView;
         private System.Windows.Forms.Label labelTable;
         private yt_DesignUI.ButtonStyle buttonFurther;
         private yt_DesignUI.ButtonStyle buttonUpdate;
         private yt_DesignUI.ButtonStyle buttonBack;
         private yt_DesignUI.ButtonStyle buttonClose;
         private yt_DesignUI.ButtonStyle buttonStyle1;
+        private AdminsClassicMusicDataSet adminsClassicMusicDataSet;
+        private System.Windows.Forms.BindingSource adminsBindingSource;
+        private AdminsClassicMusicDataSetTableAdapters.AdminsTableAdapter adminsTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn adminIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn loginDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn passwordDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fullnameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn birthdayDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phoneDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
     }
 }

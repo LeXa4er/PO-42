@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.textBoxName1 = new yt_DesignUI.TextBoxStyle();
+            this.textBoxArticleS = new yt_DesignUI.TextBoxStyle();
             this.FormStyle1 = new yt_DesignUI.Components.FormStyles(this.components);
             this.cmbStyle = new System.Windows.Forms.ComboBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -48,48 +48,49 @@
             this.labelAvailability = new System.Windows.Forms.Label();
             this.comboBoxType = new System.Windows.Forms.ComboBox();
             this.buttonReference = new yt_DesignUI.ButtonStyle();
-            this.textBoxComposer1 = new yt_DesignUI.TextBoxStyle();
-            this.textBoxYear1 = new yt_DesignUI.TextBoxStyle();
+            this.textBoxGenreS = new yt_DesignUI.TextBoxStyle();
+            this.textBoxYearPubS = new yt_DesignUI.TextBoxStyle();
             this.labelType1 = new System.Windows.Forms.Label();
-            this.textBoxName2 = new System.Windows.Forms.TextBox();
-            this.textBoxComposer2 = new System.Windows.Forms.TextBox();
-            this.textBoxYear2 = new System.Windows.Forms.TextBox();
-            this.textBoxDuration = new System.Windows.Forms.TextBox();
-            this.textBoxType = new System.Windows.Forms.TextBox();
-            this.textBoxMaterial = new System.Windows.Forms.TextBox();
-            this.labelComposer = new System.Windows.Forms.Label();
-            this.labelName = new System.Windows.Forms.Label();
-            this.labelYear = new System.Windows.Forms.Label();
-            this.labelDuration = new System.Windows.Forms.Label();
-            this.labelType2 = new System.Windows.Forms.Label();
-            this.labelMaterial = new System.Windows.Forms.Label();
+            this.textBoxArticle = new System.Windows.Forms.TextBox();
+            this.textBoxPerformers = new System.Windows.Forms.TextBox();
+            this.textBoxGenre = new System.Windows.Forms.TextBox();
+            this.textBoxPublisher = new System.Windows.Forms.TextBox();
+            this.textBoxPackaging = new System.Windows.Forms.TextBox();
+            this.textBoxCost = new System.Windows.Forms.TextBox();
+            this.labelPerformers = new System.Windows.Forms.Label();
+            this.labelArticle = new System.Windows.Forms.Label();
+            this.labelGenre = new System.Windows.Forms.Label();
+            this.labelPublisher = new System.Windows.Forms.Label();
+            this.labelPackaging = new System.Windows.Forms.Label();
+            this.labelCost = new System.Windows.Forms.Label();
             this.toggleMusic = new yt_DesignUI.ToggleSwitchStyle();
             this.labelMusic = new System.Windows.Forms.Label();
+            this.buttonClear = new yt_DesignUI.ButtonStyle();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfo)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBoxName1
+            // textBoxArticleS
             // 
-            this.textBoxName1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textBoxArticleS.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBoxName1.BackColor = System.Drawing.Color.White;
-            this.textBoxName1.BorderColor = System.Drawing.Color.Black;
-            this.textBoxName1.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.textBoxName1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBoxName1.Font = new System.Drawing.Font("Segoe UI", 12.75F);
-            this.textBoxName1.FontTextPreview = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxName1.ForeColor = System.Drawing.Color.Black;
-            this.textBoxName1.Location = new System.Drawing.Point(36, 124);
-            this.textBoxName1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxName1.MaximumSize = new System.Drawing.Size(298, 40);
-            this.textBoxName1.MinimumSize = new System.Drawing.Size(298, 40);
-            this.textBoxName1.Name = "textBoxName1";
-            this.textBoxName1.SelectionStart = 0;
-            this.textBoxName1.Size = new System.Drawing.Size(298, 40);
-            this.textBoxName1.TabIndex = 8;
-            this.textBoxName1.TextInput = "";
-            this.textBoxName1.TextPreview = "Название";
-            this.textBoxName1.UseSystemPasswordChar = false;
+            this.textBoxArticleS.BackColor = System.Drawing.Color.White;
+            this.textBoxArticleS.BorderColor = System.Drawing.Color.Black;
+            this.textBoxArticleS.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.textBoxArticleS.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxArticleS.Font = new System.Drawing.Font("Segoe UI", 12.75F);
+            this.textBoxArticleS.FontTextPreview = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxArticleS.ForeColor = System.Drawing.Color.Black;
+            this.textBoxArticleS.Location = new System.Drawing.Point(36, 124);
+            this.textBoxArticleS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxArticleS.MaximumSize = new System.Drawing.Size(298, 40);
+            this.textBoxArticleS.MinimumSize = new System.Drawing.Size(298, 40);
+            this.textBoxArticleS.Name = "textBoxArticleS";
+            this.textBoxArticleS.SelectionStart = 0;
+            this.textBoxArticleS.Size = new System.Drawing.Size(298, 40);
+            this.textBoxArticleS.TabIndex = 8;
+            this.textBoxArticleS.TextInput = "";
+            this.textBoxArticleS.TextPreview = "Артикул";
+            this.textBoxArticleS.UseSystemPasswordChar = false;
             // 
             // FormStyle1
             // 
@@ -161,8 +162,8 @@
             this.toggleAvailability.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.toggleAvailability.BackColor = System.Drawing.Color.White;
-            this.toggleAvailability.BackColorOFF = System.Drawing.Color.Gray;
-            this.toggleAvailability.BackColorON = System.Drawing.Color.SpringGreen;
+            this.toggleAvailability.BackColorOFF = System.Drawing.Color.SpringGreen;
+            this.toggleAvailability.BackColorON = System.Drawing.Color.DarkGray;
             this.toggleAvailability.Checked = false;
             this.toggleAvailability.Cursor = System.Windows.Forms.Cursors.Hand;
             this.toggleAvailability.Font = new System.Drawing.Font("Magnolia Script", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -172,8 +173,9 @@
             this.toggleAvailability.Name = "toggleAvailability";
             this.toggleAvailability.Size = new System.Drawing.Size(90, 19);
             this.toggleAvailability.TabIndex = 30;
-            this.toggleAvailability.Text = "Нет";
-            this.toggleAvailability.TextOnChecked = "Есть";
+            this.toggleAvailability.Text = "Есть";
+            this.toggleAvailability.TextOnChecked = "Нет";
+            this.toggleAvailability.CheckedChanged += new yt_DesignUI.ToggleSwitchStyle.OnCheckedChangedHandler(this.toggleAvailability_CheckedChanged);
             // 
             // buttonEditor
             // 
@@ -231,6 +233,7 @@
             this.pictureBoxInfo.MinimumSize = new System.Drawing.Size(200, 200);
             this.pictureBoxInfo.Name = "pictureBoxInfo";
             this.pictureBoxInfo.Size = new System.Drawing.Size(200, 200);
+            this.pictureBoxInfo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxInfo.TabIndex = 33;
             this.pictureBoxInfo.TabStop = false;
             // 
@@ -250,6 +253,7 @@
             this.listBoxInformation1.Name = "listBoxInformation1";
             this.listBoxInformation1.Size = new System.Drawing.Size(623, 301);
             this.listBoxInformation1.TabIndex = 34;
+            this.listBoxInformation1.SelectedIndexChanged += new System.EventHandler(this.listBoxInformation1_SelectedIndexChanged);
             // 
             // textBoxSearch
             // 
@@ -262,7 +266,7 @@
             this.textBoxSearch.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearch.FontTextPreview = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearch.ForeColor = System.Drawing.Color.Black;
-            this.textBoxSearch.Location = new System.Drawing.Point(449, 27);
+            this.textBoxSearch.Location = new System.Drawing.Point(369, 24);
             this.textBoxSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxSearch.MinimumSize = new System.Drawing.Size(443, 40);
             this.textBoxSearch.Name = "textBoxSearch";
@@ -270,8 +274,9 @@
             this.textBoxSearch.Size = new System.Drawing.Size(443, 40);
             this.textBoxSearch.TabIndex = 35;
             this.textBoxSearch.TextInput = "";
-            this.textBoxSearch.TextPreview = "Поиск";
+            this.textBoxSearch.TextPreview = "Поиск по наименованию товара";
             this.textBoxSearch.UseSystemPasswordChar = false;
+            this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
             // 
             // cardQuote2
             // 
@@ -367,19 +372,19 @@
             // 
             this.comboBoxType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.comboBoxType.DisplayMember = "0";
             this.comboBoxType.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxType.FormattingEnabled = true;
             this.comboBoxType.Items.AddRange(new object[] {
-            "Граммофонные пластинки",
-            "Компакт-диск ",
-            "Дуал-диск",
-            "Флеш накопитель"});
+            "Виниловые пластинки",
+            "CD-диски"});
             this.comboBoxType.Location = new System.Drawing.Point(36, 320);
             this.comboBoxType.MaximumSize = new System.Drawing.Size(298, 0);
             this.comboBoxType.MinimumSize = new System.Drawing.Size(298, 0);
             this.comboBoxType.Name = "comboBoxType";
             this.comboBoxType.Size = new System.Drawing.Size(298, 31);
             this.comboBoxType.TabIndex = 40;
+            this.comboBoxType.SelectedIndexChanged += new System.EventHandler(this.comboBoxType_SelectedIndexChanged);
             // 
             // buttonReference
             // 
@@ -411,51 +416,51 @@
             this.buttonReference.UseZoomEffectOnHover = false;
             this.buttonReference.Click += new System.EventHandler(this.buttonReference_Click);
             // 
-            // textBoxComposer1
+            // textBoxGenreS
             // 
-            this.textBoxComposer1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textBoxGenreS.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBoxComposer1.BackColor = System.Drawing.Color.White;
-            this.textBoxComposer1.BorderColor = System.Drawing.Color.Black;
-            this.textBoxComposer1.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.textBoxComposer1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBoxComposer1.Font = new System.Drawing.Font("Segoe UI", 12.75F);
-            this.textBoxComposer1.FontTextPreview = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxComposer1.ForeColor = System.Drawing.Color.Black;
-            this.textBoxComposer1.Location = new System.Drawing.Point(36, 177);
-            this.textBoxComposer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxComposer1.MaximumSize = new System.Drawing.Size(298, 40);
-            this.textBoxComposer1.MinimumSize = new System.Drawing.Size(298, 40);
-            this.textBoxComposer1.Name = "textBoxComposer1";
-            this.textBoxComposer1.SelectionStart = 0;
-            this.textBoxComposer1.Size = new System.Drawing.Size(298, 40);
-            this.textBoxComposer1.TabIndex = 43;
-            this.textBoxComposer1.TextInput = "";
-            this.textBoxComposer1.TextPreview = "Композитор";
-            this.textBoxComposer1.UseSystemPasswordChar = false;
+            this.textBoxGenreS.BackColor = System.Drawing.Color.White;
+            this.textBoxGenreS.BorderColor = System.Drawing.Color.Black;
+            this.textBoxGenreS.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.textBoxGenreS.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxGenreS.Font = new System.Drawing.Font("Segoe UI", 12.75F);
+            this.textBoxGenreS.FontTextPreview = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxGenreS.ForeColor = System.Drawing.Color.Black;
+            this.textBoxGenreS.Location = new System.Drawing.Point(36, 177);
+            this.textBoxGenreS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxGenreS.MaximumSize = new System.Drawing.Size(298, 40);
+            this.textBoxGenreS.MinimumSize = new System.Drawing.Size(298, 40);
+            this.textBoxGenreS.Name = "textBoxGenreS";
+            this.textBoxGenreS.SelectionStart = 0;
+            this.textBoxGenreS.Size = new System.Drawing.Size(298, 40);
+            this.textBoxGenreS.TabIndex = 43;
+            this.textBoxGenreS.TextInput = "";
+            this.textBoxGenreS.TextPreview = "Жанр";
+            this.textBoxGenreS.UseSystemPasswordChar = false;
             // 
-            // textBoxYear1
+            // textBoxYearPubS
             // 
-            this.textBoxYear1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textBoxYearPubS.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBoxYear1.BackColor = System.Drawing.Color.White;
-            this.textBoxYear1.BorderColor = System.Drawing.Color.Black;
-            this.textBoxYear1.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.textBoxYear1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBoxYear1.Font = new System.Drawing.Font("Segoe UI", 12.75F);
-            this.textBoxYear1.FontTextPreview = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxYear1.ForeColor = System.Drawing.Color.Black;
-            this.textBoxYear1.Location = new System.Drawing.Point(36, 232);
-            this.textBoxYear1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxYear1.MaximumSize = new System.Drawing.Size(298, 40);
-            this.textBoxYear1.MinimumSize = new System.Drawing.Size(298, 40);
-            this.textBoxYear1.Name = "textBoxYear1";
-            this.textBoxYear1.SelectionStart = 0;
-            this.textBoxYear1.Size = new System.Drawing.Size(298, 40);
-            this.textBoxYear1.TabIndex = 44;
-            this.textBoxYear1.TextInput = "";
-            this.textBoxYear1.TextPreview = "Год публикации";
-            this.textBoxYear1.UseSystemPasswordChar = false;
+            this.textBoxYearPubS.BackColor = System.Drawing.Color.White;
+            this.textBoxYearPubS.BorderColor = System.Drawing.Color.Black;
+            this.textBoxYearPubS.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.textBoxYearPubS.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxYearPubS.Font = new System.Drawing.Font("Segoe UI", 12.75F);
+            this.textBoxYearPubS.FontTextPreview = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxYearPubS.ForeColor = System.Drawing.Color.Black;
+            this.textBoxYearPubS.Location = new System.Drawing.Point(36, 232);
+            this.textBoxYearPubS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxYearPubS.MaximumSize = new System.Drawing.Size(298, 40);
+            this.textBoxYearPubS.MinimumSize = new System.Drawing.Size(298, 40);
+            this.textBoxYearPubS.Name = "textBoxYearPubS";
+            this.textBoxYearPubS.SelectionStart = 0;
+            this.textBoxYearPubS.Size = new System.Drawing.Size(298, 40);
+            this.textBoxYearPubS.TabIndex = 44;
+            this.textBoxYearPubS.TextInput = "";
+            this.textBoxYearPubS.TextPreview = "Год издания";
+            this.textBoxYearPubS.UseSystemPasswordChar = false;
             // 
             // labelType1
             // 
@@ -473,160 +478,161 @@
             this.labelType1.TabIndex = 41;
             this.labelType1.Text = "Тип носителя";
             // 
-            // textBoxName2
+            // textBoxArticle
             // 
-            this.textBoxName2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.textBoxName2.Font = new System.Drawing.Font("Segoe UI", 12.75F);
-            this.textBoxName2.Location = new System.Drawing.Point(369, 443);
-            this.textBoxName2.MaximumSize = new System.Drawing.Size(299, 28);
-            this.textBoxName2.MinimumSize = new System.Drawing.Size(299, 28);
-            this.textBoxName2.Multiline = true;
-            this.textBoxName2.Name = "textBoxName2";
-            this.textBoxName2.ReadOnly = true;
-            this.textBoxName2.Size = new System.Drawing.Size(299, 28);
-            this.textBoxName2.TabIndex = 45;
+            this.textBoxArticle.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxArticle.Font = new System.Drawing.Font("Segoe UI", 12.75F);
+            this.textBoxArticle.Location = new System.Drawing.Point(369, 443);
+            this.textBoxArticle.MaximumSize = new System.Drawing.Size(299, 28);
+            this.textBoxArticle.MinimumSize = new System.Drawing.Size(299, 28);
+            this.textBoxArticle.Multiline = true;
+            this.textBoxArticle.Name = "textBoxArticle";
+            this.textBoxArticle.ReadOnly = true;
+            this.textBoxArticle.Size = new System.Drawing.Size(299, 28);
+            this.textBoxArticle.TabIndex = 45;
             // 
-            // textBoxComposer2
+            // textBoxPerformers
             // 
-            this.textBoxComposer2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.textBoxComposer2.Font = new System.Drawing.Font("Segoe UI", 12.75F);
-            this.textBoxComposer2.Location = new System.Drawing.Point(693, 443);
-            this.textBoxComposer2.MaximumSize = new System.Drawing.Size(299, 28);
-            this.textBoxComposer2.MinimumSize = new System.Drawing.Size(299, 28);
-            this.textBoxComposer2.Multiline = true;
-            this.textBoxComposer2.Name = "textBoxComposer2";
-            this.textBoxComposer2.ReadOnly = true;
-            this.textBoxComposer2.Size = new System.Drawing.Size(299, 28);
-            this.textBoxComposer2.TabIndex = 46;
+            this.textBoxPerformers.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxPerformers.Font = new System.Drawing.Font("Segoe UI", 12.75F);
+            this.textBoxPerformers.Location = new System.Drawing.Point(693, 443);
+            this.textBoxPerformers.MaximumSize = new System.Drawing.Size(299, 28);
+            this.textBoxPerformers.MinimumSize = new System.Drawing.Size(299, 28);
+            this.textBoxPerformers.Multiline = true;
+            this.textBoxPerformers.Name = "textBoxPerformers";
+            this.textBoxPerformers.ReadOnly = true;
+            this.textBoxPerformers.Size = new System.Drawing.Size(299, 28);
+            this.textBoxPerformers.TabIndex = 46;
             // 
-            // textBoxYear2
+            // textBoxGenre
             // 
-            this.textBoxYear2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.textBoxYear2.Location = new System.Drawing.Point(369, 538);
-            this.textBoxYear2.MaximumSize = new System.Drawing.Size(299, 28);
-            this.textBoxYear2.MinimumSize = new System.Drawing.Size(299, 28);
-            this.textBoxYear2.Multiline = true;
-            this.textBoxYear2.Name = "textBoxYear2";
-            this.textBoxYear2.ReadOnly = true;
-            this.textBoxYear2.Size = new System.Drawing.Size(299, 28);
-            this.textBoxYear2.TabIndex = 47;
+            this.textBoxGenre.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxGenre.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxGenre.Location = new System.Drawing.Point(369, 538);
+            this.textBoxGenre.MaximumSize = new System.Drawing.Size(299, 28);
+            this.textBoxGenre.MinimumSize = new System.Drawing.Size(299, 28);
+            this.textBoxGenre.Multiline = true;
+            this.textBoxGenre.Name = "textBoxGenre";
+            this.textBoxGenre.ReadOnly = true;
+            this.textBoxGenre.Size = new System.Drawing.Size(299, 28);
+            this.textBoxGenre.TabIndex = 47;
             // 
-            // textBoxDuration
+            // textBoxPublisher
             // 
-            this.textBoxDuration.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.textBoxDuration.Font = new System.Drawing.Font("Segoe UI", 12.75F);
-            this.textBoxDuration.Location = new System.Drawing.Point(693, 538);
-            this.textBoxDuration.MaximumSize = new System.Drawing.Size(299, 28);
-            this.textBoxDuration.MinimumSize = new System.Drawing.Size(299, 28);
-            this.textBoxDuration.Multiline = true;
-            this.textBoxDuration.Name = "textBoxDuration";
-            this.textBoxDuration.ReadOnly = true;
-            this.textBoxDuration.Size = new System.Drawing.Size(299, 28);
-            this.textBoxDuration.TabIndex = 48;
+            this.textBoxPublisher.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxPublisher.Font = new System.Drawing.Font("Segoe UI", 12.75F);
+            this.textBoxPublisher.Location = new System.Drawing.Point(693, 538);
+            this.textBoxPublisher.MaximumSize = new System.Drawing.Size(299, 28);
+            this.textBoxPublisher.MinimumSize = new System.Drawing.Size(299, 28);
+            this.textBoxPublisher.Multiline = true;
+            this.textBoxPublisher.Name = "textBoxPublisher";
+            this.textBoxPublisher.ReadOnly = true;
+            this.textBoxPublisher.Size = new System.Drawing.Size(299, 28);
+            this.textBoxPublisher.TabIndex = 48;
             // 
-            // textBoxType
+            // textBoxPackaging
             // 
-            this.textBoxType.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.textBoxType.Font = new System.Drawing.Font("Segoe UI", 12.75F);
-            this.textBoxType.Location = new System.Drawing.Point(368, 622);
-            this.textBoxType.MaximumSize = new System.Drawing.Size(299, 28);
-            this.textBoxType.MinimumSize = new System.Drawing.Size(299, 28);
-            this.textBoxType.Multiline = true;
-            this.textBoxType.Name = "textBoxType";
-            this.textBoxType.ReadOnly = true;
-            this.textBoxType.Size = new System.Drawing.Size(299, 28);
-            this.textBoxType.TabIndex = 49;
+            this.textBoxPackaging.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxPackaging.Font = new System.Drawing.Font("Segoe UI", 12.75F);
+            this.textBoxPackaging.Location = new System.Drawing.Point(368, 622);
+            this.textBoxPackaging.MaximumSize = new System.Drawing.Size(299, 28);
+            this.textBoxPackaging.MinimumSize = new System.Drawing.Size(299, 28);
+            this.textBoxPackaging.Multiline = true;
+            this.textBoxPackaging.Name = "textBoxPackaging";
+            this.textBoxPackaging.ReadOnly = true;
+            this.textBoxPackaging.Size = new System.Drawing.Size(299, 28);
+            this.textBoxPackaging.TabIndex = 49;
             // 
-            // textBoxMaterial
+            // textBoxCost
             // 
-            this.textBoxMaterial.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.textBoxMaterial.Font = new System.Drawing.Font("Segoe UI", 12.75F);
-            this.textBoxMaterial.Location = new System.Drawing.Point(693, 622);
-            this.textBoxMaterial.MaximumSize = new System.Drawing.Size(299, 28);
-            this.textBoxMaterial.MinimumSize = new System.Drawing.Size(299, 28);
-            this.textBoxMaterial.Multiline = true;
-            this.textBoxMaterial.Name = "textBoxMaterial";
-            this.textBoxMaterial.ReadOnly = true;
-            this.textBoxMaterial.Size = new System.Drawing.Size(299, 28);
-            this.textBoxMaterial.TabIndex = 50;
+            this.textBoxCost.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxCost.Font = new System.Drawing.Font("Segoe UI", 12.75F);
+            this.textBoxCost.Location = new System.Drawing.Point(693, 622);
+            this.textBoxCost.MaximumSize = new System.Drawing.Size(299, 28);
+            this.textBoxCost.MinimumSize = new System.Drawing.Size(299, 28);
+            this.textBoxCost.Multiline = true;
+            this.textBoxCost.Name = "textBoxCost";
+            this.textBoxCost.ReadOnly = true;
+            this.textBoxCost.Size = new System.Drawing.Size(299, 28);
+            this.textBoxCost.TabIndex = 50;
             // 
-            // labelComposer
+            // labelPerformers
             // 
-            this.labelComposer.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.labelComposer.AutoSize = true;
-            this.labelComposer.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelComposer.Location = new System.Drawing.Point(753, 402);
-            this.labelComposer.MaximumSize = new System.Drawing.Size(204, 34);
-            this.labelComposer.MinimumSize = new System.Drawing.Size(204, 27);
-            this.labelComposer.Name = "labelComposer";
-            this.labelComposer.Size = new System.Drawing.Size(204, 34);
-            this.labelComposer.TabIndex = 53;
-            this.labelComposer.Text = "Композитор";
+            this.labelPerformers.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.labelPerformers.AutoSize = true;
+            this.labelPerformers.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPerformers.Location = new System.Drawing.Point(753, 402);
+            this.labelPerformers.MaximumSize = new System.Drawing.Size(204, 34);
+            this.labelPerformers.MinimumSize = new System.Drawing.Size(204, 27);
+            this.labelPerformers.Name = "labelPerformers";
+            this.labelPerformers.Size = new System.Drawing.Size(204, 34);
+            this.labelPerformers.TabIndex = 53;
+            this.labelPerformers.Text = "Исполнители";
             // 
-            // labelName
+            // labelArticle
             // 
-            this.labelName.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.labelName.AutoSize = true;
-            this.labelName.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelName.Location = new System.Drawing.Point(454, 402);
-            this.labelName.MaximumSize = new System.Drawing.Size(175, 34);
-            this.labelName.MinimumSize = new System.Drawing.Size(175, 34);
-            this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(175, 34);
-            this.labelName.TabIndex = 54;
-            this.labelName.Text = "Название";
+            this.labelArticle.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.labelArticle.AutoSize = true;
+            this.labelArticle.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelArticle.Location = new System.Drawing.Point(454, 402);
+            this.labelArticle.MaximumSize = new System.Drawing.Size(175, 34);
+            this.labelArticle.MinimumSize = new System.Drawing.Size(175, 34);
+            this.labelArticle.Name = "labelArticle";
+            this.labelArticle.Size = new System.Drawing.Size(175, 34);
+            this.labelArticle.TabIndex = 54;
+            this.labelArticle.Text = "Артикул";
             // 
-            // labelYear
+            // labelGenre
             // 
-            this.labelYear.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.labelYear.AutoSize = true;
-            this.labelYear.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelYear.Location = new System.Drawing.Point(428, 495);
-            this.labelYear.MaximumSize = new System.Drawing.Size(204, 34);
-            this.labelYear.MinimumSize = new System.Drawing.Size(175, 34);
-            this.labelYear.Name = "labelYear";
-            this.labelYear.Size = new System.Drawing.Size(201, 34);
-            this.labelYear.TabIndex = 55;
-            this.labelYear.Text = "Год публикации";
+            this.labelGenre.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.labelGenre.AutoSize = true;
+            this.labelGenre.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGenre.Location = new System.Drawing.Point(477, 495);
+            this.labelGenre.MaximumSize = new System.Drawing.Size(204, 34);
+            this.labelGenre.MinimumSize = new System.Drawing.Size(175, 34);
+            this.labelGenre.Name = "labelGenre";
+            this.labelGenre.Size = new System.Drawing.Size(175, 34);
+            this.labelGenre.TabIndex = 55;
+            this.labelGenre.Text = "Жанр";
             // 
-            // labelDuration
+            // labelPublisher
             // 
-            this.labelDuration.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.labelDuration.AutoSize = true;
-            this.labelDuration.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDuration.Location = new System.Drawing.Point(743, 495);
-            this.labelDuration.MaximumSize = new System.Drawing.Size(204, 34);
-            this.labelDuration.MinimumSize = new System.Drawing.Size(204, 27);
-            this.labelDuration.Name = "labelDuration";
-            this.labelDuration.Size = new System.Drawing.Size(204, 34);
-            this.labelDuration.TabIndex = 56;
-            this.labelDuration.Text = "Длительность";
+            this.labelPublisher.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.labelPublisher.AutoSize = true;
+            this.labelPublisher.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPublisher.Location = new System.Drawing.Point(771, 495);
+            this.labelPublisher.MaximumSize = new System.Drawing.Size(204, 34);
+            this.labelPublisher.MinimumSize = new System.Drawing.Size(204, 27);
+            this.labelPublisher.Name = "labelPublisher";
+            this.labelPublisher.Size = new System.Drawing.Size(204, 34);
+            this.labelPublisher.TabIndex = 56;
+            this.labelPublisher.Text = "Издатель";
             // 
-            // labelType2
+            // labelPackaging
             // 
-            this.labelType2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.labelType2.AutoSize = true;
-            this.labelType2.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelType2.Location = new System.Drawing.Point(428, 580);
-            this.labelType2.MaximumSize = new System.Drawing.Size(204, 34);
-            this.labelType2.MinimumSize = new System.Drawing.Size(204, 27);
-            this.labelType2.Name = "labelType2";
-            this.labelType2.Size = new System.Drawing.Size(204, 34);
-            this.labelType2.TabIndex = 57;
-            this.labelType2.Text = "Тип носителя";
+            this.labelPackaging.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.labelPackaging.AutoSize = true;
+            this.labelPackaging.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPackaging.Location = new System.Drawing.Point(454, 580);
+            this.labelPackaging.MaximumSize = new System.Drawing.Size(204, 34);
+            this.labelPackaging.MinimumSize = new System.Drawing.Size(204, 27);
+            this.labelPackaging.Name = "labelPackaging";
+            this.labelPackaging.Size = new System.Drawing.Size(204, 34);
+            this.labelPackaging.TabIndex = 57;
+            this.labelPackaging.Text = "Упаковка";
             // 
-            // labelMaterial
+            // labelCost
             // 
-            this.labelMaterial.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.labelMaterial.AutoSize = true;
-            this.labelMaterial.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMaterial.Location = new System.Drawing.Point(771, 580);
-            this.labelMaterial.MaximumSize = new System.Drawing.Size(204, 34);
-            this.labelMaterial.MinimumSize = new System.Drawing.Size(204, 27);
-            this.labelMaterial.Name = "labelMaterial";
-            this.labelMaterial.Size = new System.Drawing.Size(204, 34);
-            this.labelMaterial.TabIndex = 58;
-            this.labelMaterial.Text = "Материал носителя";
+            this.labelCost.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.labelCost.AutoSize = true;
+            this.labelCost.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCost.Location = new System.Drawing.Point(771, 580);
+            this.labelCost.MaximumSize = new System.Drawing.Size(204, 34);
+            this.labelCost.MinimumSize = new System.Drawing.Size(204, 27);
+            this.labelCost.Name = "labelCost";
+            this.labelCost.Size = new System.Drawing.Size(204, 34);
+            this.labelCost.TabIndex = 58;
+            this.labelCost.Text = "Стоимость";
             // 
             // toggleMusic
             // 
@@ -657,6 +663,36 @@
             this.labelMusic.TabIndex = 60;
             this.labelMusic.Text = "Музыка:";
             // 
+            // buttonClear
+            // 
+            this.buttonClear.BackColor = System.Drawing.Color.Cyan;
+            this.buttonClear.BackColorAdditional = System.Drawing.Color.Magenta;
+            this.buttonClear.BackColorGradientEnabled = true;
+            this.buttonClear.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.buttonClear.BorderColor = System.Drawing.Color.Black;
+            this.buttonClear.BorderColorEnabled = false;
+            this.buttonClear.BorderColorOnHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.buttonClear.BorderColorOnHoverEnabled = true;
+            this.buttonClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonClear.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClear.ForeColor = System.Drawing.Color.Black;
+            this.buttonClear.Location = new System.Drawing.Point(837, 24);
+            this.buttonClear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonClear.MaximumSize = new System.Drawing.Size(155, 51);
+            this.buttonClear.MinimumSize = new System.Drawing.Size(155, 51);
+            this.buttonClear.Name = "buttonClear";
+            this.buttonClear.RippleColor = System.Drawing.Color.Black;
+            this.buttonClear.RoundingEnable = true;
+            this.buttonClear.Size = new System.Drawing.Size(155, 51);
+            this.buttonClear.TabIndex = 61;
+            this.buttonClear.Text = "Сбросить";
+            this.buttonClear.TextHover = null;
+            this.buttonClear.UseDownPressEffectOnClick = true;
+            this.buttonClear.UseRippleEffect = true;
+            this.buttonClear.UseVisualStyleBackColor = false;
+            this.buttonClear.UseZoomEffectOnHover = false;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -664,22 +700,23 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1264, 689);
+            this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.labelMusic);
             this.Controls.Add(this.toggleMusic);
-            this.Controls.Add(this.labelMaterial);
-            this.Controls.Add(this.labelType2);
-            this.Controls.Add(this.labelDuration);
-            this.Controls.Add(this.labelYear);
-            this.Controls.Add(this.labelName);
-            this.Controls.Add(this.labelComposer);
-            this.Controls.Add(this.textBoxMaterial);
-            this.Controls.Add(this.textBoxType);
-            this.Controls.Add(this.textBoxDuration);
-            this.Controls.Add(this.textBoxYear2);
-            this.Controls.Add(this.textBoxComposer2);
-            this.Controls.Add(this.textBoxName2);
-            this.Controls.Add(this.textBoxYear1);
-            this.Controls.Add(this.textBoxComposer1);
+            this.Controls.Add(this.labelCost);
+            this.Controls.Add(this.labelPackaging);
+            this.Controls.Add(this.labelPublisher);
+            this.Controls.Add(this.labelGenre);
+            this.Controls.Add(this.labelArticle);
+            this.Controls.Add(this.labelPerformers);
+            this.Controls.Add(this.textBoxCost);
+            this.Controls.Add(this.textBoxPackaging);
+            this.Controls.Add(this.textBoxPublisher);
+            this.Controls.Add(this.textBoxGenre);
+            this.Controls.Add(this.textBoxPerformers);
+            this.Controls.Add(this.textBoxArticle);
+            this.Controls.Add(this.textBoxYearPubS);
+            this.Controls.Add(this.textBoxGenreS);
             this.Controls.Add(this.buttonReference);
             this.Controls.Add(this.labelType1);
             this.Controls.Add(this.comboBoxType);
@@ -693,7 +730,7 @@
             this.Controls.Add(this.labelFilter);
             this.Controls.Add(this.cardQuote1);
             this.Controls.Add(this.toggleAvailability);
-            this.Controls.Add(this.textBoxName1);
+            this.Controls.Add(this.textBoxArticleS);
             this.Controls.Add(this.buttonEditor);
             this.Controls.Add(this.cmbStyle);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -713,7 +750,7 @@
 
         #endregion
         
-        private TextBoxStyle textBoxName1;
+        private TextBoxStyle textBoxArticleS;
         private Components.FormStyles FormStyle1;
         private System.Windows.Forms.ComboBox cmbStyle;
         private System.Windows.Forms.Timer timer1;
@@ -730,24 +767,25 @@
         private ButtonStyle buttonInfo;
         private System.Windows.Forms.ComboBox comboBoxType;
         private System.Windows.Forms.Label labelAvailability;
-        private TextBoxStyle textBoxYear1;
-        private TextBoxStyle textBoxComposer1;
+        private TextBoxStyle textBoxYearPubS;
+        private TextBoxStyle textBoxGenreS;
         private ButtonStyle buttonReference;
         private System.Windows.Forms.Label labelType1;
-        private System.Windows.Forms.Label labelMaterial;
-        private System.Windows.Forms.Label labelType2;
-        private System.Windows.Forms.Label labelDuration;
-        private System.Windows.Forms.Label labelYear;
-        private System.Windows.Forms.Label labelName;
-        private System.Windows.Forms.Label labelComposer;
-        private System.Windows.Forms.TextBox textBoxMaterial;
-        private System.Windows.Forms.TextBox textBoxType;
-        private System.Windows.Forms.TextBox textBoxDuration;
-        private System.Windows.Forms.TextBox textBoxYear2;
-        private System.Windows.Forms.TextBox textBoxComposer2;
-        private System.Windows.Forms.TextBox textBoxName2;
+        private System.Windows.Forms.Label labelCost;
+        private System.Windows.Forms.Label labelPackaging;
+        private System.Windows.Forms.Label labelPublisher;
+        private System.Windows.Forms.Label labelGenre;
+        private System.Windows.Forms.Label labelArticle;
+        private System.Windows.Forms.Label labelPerformers;
+        private System.Windows.Forms.TextBox textBoxCost;
+        private System.Windows.Forms.TextBox textBoxPackaging;
+        private System.Windows.Forms.TextBox textBoxPublisher;
+        private System.Windows.Forms.TextBox textBoxGenre;
+        private System.Windows.Forms.TextBox textBoxPerformers;
+        private System.Windows.Forms.TextBox textBoxArticle;
         private System.Windows.Forms.Label labelMusic;
         private ToggleSwitchStyle toggleMusic;
+        private ButtonStyle buttonClear;
     }
 }
 

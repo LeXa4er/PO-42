@@ -26,14 +26,14 @@ namespace ClassicMusic
 
         private void buttonFurther_Click(object sender, EventArgs e)
         {
-            Record2 form = new Record2();
+            RecordLPs form = new RecordLPs();
             form.Show();
             this.Hide();
         }
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
-            Record3 form = new Record3();
+            RecordCDs form = new RecordCDs();
             form.Show();
             this.Hide();
         }

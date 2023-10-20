@@ -19,7 +19,7 @@ namespace ClassicMusic
 
         private void buttonClose_Click(object sender, EventArgs e)
         {
-            Editor3 form = new Editor3();
+            EditorCDs form = new EditorCDs();
             form.Show();
             this.Hide();
         }
@@ -33,7 +33,7 @@ namespace ClassicMusic
 
         private void buttonFurther_Click(object sender, EventArgs e)
         {
-            Editor2 form = new Editor2();
+            EditorLPs form = new EditorLPs();
             form.Show();
             this.Hide();
         }
@@ -43,6 +43,18 @@ namespace ClassicMusic
             RecordAdmin form = new RecordAdmin();
             form.Show();
             this.Hide();
+        }
+
+        private void EditorAdmin_Load(object sender, EventArgs e)
+        {
+            this.adminsTableAdapter.Fill(this.adminsClassicMusicDataSet.Admins);
+            AdminsBindingNavigator.BindingSource = adminsBindingSource;
+        }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+            this.adminsTableAdapter.Update(this.adminsClassicMusicDataSet.Admins);
+            this.adminsTableAdapter.Fill(this.adminsClassicMusicDataSet.Admins);
         }
     }
 }

@@ -37,7 +37,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelAuthorization = new System.Windows.Forms.Label();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
-            this.buttonStyle1 = new yt_DesignUI.ButtonStyle();
+            this.buttonAuth = new yt_DesignUI.ButtonStyle();
             this.buttonClose = new yt_DesignUI.ButtonStyle();
             this.textBoxLogin = new yt_DesignUI.TextBoxStyle();
             this.FormStyle1 = new yt_DesignUI.Components.FormStyles(this.components);
@@ -130,37 +130,36 @@
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(247, 32);
             this.textBoxPassword.TabIndex = 60;
-            this.textBoxPassword.Text = " ";
             // 
-            // buttonStyle1
+            // buttonAuth
             // 
-            this.buttonStyle1.BackColor = System.Drawing.Color.Cyan;
-            this.buttonStyle1.BackColorAdditional = System.Drawing.Color.Magenta;
-            this.buttonStyle1.BackColorGradientEnabled = true;
-            this.buttonStyle1.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.buttonStyle1.BorderColor = System.Drawing.Color.Black;
-            this.buttonStyle1.BorderColorEnabled = false;
-            this.buttonStyle1.BorderColorOnHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.buttonStyle1.BorderColorOnHoverEnabled = true;
-            this.buttonStyle1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonStyle1.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonStyle1.ForeColor = System.Drawing.Color.Black;
-            this.buttonStyle1.Location = new System.Drawing.Point(129, 213);
-            this.buttonStyle1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.buttonStyle1.MaximumSize = new System.Drawing.Size(155, 51);
-            this.buttonStyle1.MinimumSize = new System.Drawing.Size(117, 50);
-            this.buttonStyle1.Name = "buttonStyle1";
-            this.buttonStyle1.RippleColor = System.Drawing.Color.Black;
-            this.buttonStyle1.RoundingEnable = true;
-            this.buttonStyle1.Size = new System.Drawing.Size(117, 50);
-            this.buttonStyle1.TabIndex = 58;
-            this.buttonStyle1.Text = "Войти";
-            this.buttonStyle1.TextHover = null;
-            this.buttonStyle1.UseDownPressEffectOnClick = true;
-            this.buttonStyle1.UseRippleEffect = true;
-            this.buttonStyle1.UseVisualStyleBackColor = false;
-            this.buttonStyle1.UseZoomEffectOnHover = false;
-            this.buttonStyle1.Click += new System.EventHandler(this.buttonStyle1_Click);
+            this.buttonAuth.BackColor = System.Drawing.Color.Cyan;
+            this.buttonAuth.BackColorAdditional = System.Drawing.Color.Magenta;
+            this.buttonAuth.BackColorGradientEnabled = true;
+            this.buttonAuth.BackColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.buttonAuth.BorderColor = System.Drawing.Color.Black;
+            this.buttonAuth.BorderColorEnabled = false;
+            this.buttonAuth.BorderColorOnHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.buttonAuth.BorderColorOnHoverEnabled = true;
+            this.buttonAuth.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonAuth.Font = new System.Drawing.Font("Magnolia Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAuth.ForeColor = System.Drawing.Color.Black;
+            this.buttonAuth.Location = new System.Drawing.Point(129, 213);
+            this.buttonAuth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonAuth.MaximumSize = new System.Drawing.Size(155, 51);
+            this.buttonAuth.MinimumSize = new System.Drawing.Size(117, 50);
+            this.buttonAuth.Name = "buttonAuth";
+            this.buttonAuth.RippleColor = System.Drawing.Color.Black;
+            this.buttonAuth.RoundingEnable = true;
+            this.buttonAuth.Size = new System.Drawing.Size(117, 50);
+            this.buttonAuth.TabIndex = 58;
+            this.buttonAuth.Text = "Войти";
+            this.buttonAuth.TextHover = null;
+            this.buttonAuth.UseDownPressEffectOnClick = true;
+            this.buttonAuth.UseRippleEffect = true;
+            this.buttonAuth.UseVisualStyleBackColor = false;
+            this.buttonAuth.UseZoomEffectOnHover = false;
+            this.buttonAuth.Click += new System.EventHandler(this.buttonAuth_Click);
             // 
             // buttonClose
             // 
@@ -238,7 +237,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(391, 353);
             this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.buttonStyle1);
+            this.Controls.Add(this.buttonAuth);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.textBoxLogin);
             this.Controls.Add(this.pictureBoxClose);
@@ -274,7 +273,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label labelAuthorization;
         private yt_DesignUI.TextBoxStyle textBoxLogin;
-        private yt_DesignUI.ButtonStyle buttonStyle1;
+        private yt_DesignUI.ButtonStyle buttonAuth;
         private yt_DesignUI.ButtonStyle buttonClose;
         private System.Windows.Forms.TextBox textBoxPassword;
     }
