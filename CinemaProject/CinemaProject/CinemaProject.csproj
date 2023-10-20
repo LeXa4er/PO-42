@@ -70,6 +70,11 @@
     <Compile Include="BookingsForm.Designer.cs">
       <DependentUpon>BookingsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="cinemaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cinemaDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="MoviesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +123,17 @@
     <EmbeddedResource Include="SessionsForm.resx">
       <DependentUpon>SessionsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="cinemaDataSet.xsc">
+      <DependentUpon>cinemaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cinemaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cinemaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cinemaDataSet.xss">
+      <DependentUpon>cinemaDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -140,6 +156,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\drive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showpassword.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
