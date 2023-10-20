@@ -102,11 +102,7 @@ C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\Int
 C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.csproj.ResolveComReference.cache
 C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.Authorization.resources
 C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.EditorAdmin.resources
-C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.Editor2.resources
-C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.Editor3.resources
 C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.ProgrammInfo.resources
-C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.Record2.resources
-C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.Record3.resources
 C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.RecordAdmin.resources
 C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\yt_DesignUI.Controls.ShadowedForm.resources
 C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\yt_DesignUI.MainForm.resources
@@ -147,3 +143,7 @@ C:\Users\Disketa\source\repos\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.
 C:\Users\Disketa\source\repos\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.EditorCDs.resources
 C:\Users\Disketa\source\repos\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.RecordLPs.resources
 C:\Users\Disketa\source\repos\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.RecordCDs.resources
+C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.EditorLPs.resources
+C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.EditorCDs.resources
+C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.RecordLPs.resources
+C:\Users\Disketa\Documents\GitHub\PO-42\ClassicMusic\ClassicMusics\obj\Debug\ClassicMusic.RecordCDs.resources

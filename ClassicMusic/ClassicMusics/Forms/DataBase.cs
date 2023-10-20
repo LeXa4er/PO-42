@@ -9,7 +9,7 @@ namespace ClassicMusic
 {
     internal class DataBase
     {
-        static readonly SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-OS9PKUD;Initial Catalog=ClassicMusic;Integrated Security=True;MultipleActiveResultSets=true;");
+        static readonly SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-UVRE81G;Initial Catalog=ClassicMusic;Integrated Security=True;MultipleActiveResultSets=true;");
 
         public void openConnection()
         {
@@ -29,7 +29,7 @@ namespace ClassicMusic
 
         public static SqlConnection GetOpenConnection()
         {
-            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-OS9PKUD;Initial Catalog=ClassicMusic;Integrated Security=True;MultipleActiveResultSets=true;");
+            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-UVRE81G;Initial Catalog=ClassicMusic;Integrated Security=True;MultipleActiveResultSets=true;");
             con.Open();
             return con;
         }
