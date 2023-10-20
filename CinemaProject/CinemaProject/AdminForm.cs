@@ -23,5 +23,12 @@ namespace CinemaProject
             AuthorizationForm authorizationForm = new AuthorizationForm();
             authorizationForm.ShowDialog();
         }
+
+        private void guna2HtmlLabel19_Click(object sender, EventArgs e)
+        {
+            Hide();
+            SessionsForm sessionsForm = new SessionsForm();
+            sessionsForm.ShowDialog();
+        }
     }
 }

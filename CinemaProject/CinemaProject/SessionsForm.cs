@@ -37,5 +37,18 @@ namespace CinemaProject
             BookingsForm bookingsForm = new BookingsForm();
             bookingsForm.ShowDialog();
         }
+
+        private void SessionsForm_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "cinemaDataSet.Users". При необходимости она может быть перемещена или удалена.
+            this.usersTableAdapter.Fill(this.cinemaDataSet.Users);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "cinemaDataSet.Sessions". При необходимости она может быть перемещена или удалена.
+            this.sessionsTableAdapter.Fill(this.cinemaDataSet.Sessions);
+            if (((DataRowView)bindingSource1.Current).Row["IsAdmin"].ToString() == "True")
+            {
+                panel1.Visible = false;
+            }
+
+        }
     }
 }

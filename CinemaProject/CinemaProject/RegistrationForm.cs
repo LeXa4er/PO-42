@@ -15,6 +15,7 @@ namespace CinemaProject
         public RegistrationForm()
         {
             InitializeComponent();
+            guna2TextBox2.UseSystemPasswordChar = true;
         }
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
@@ -26,23 +27,31 @@ namespace CinemaProject
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
+            string login = guna2TextBox1.Text;
+            string password = guna2TextBox2.Text;
 
-                if (guna2TextBox1.Text != (bindingSource1.Filter = "[Логин] = '"))
+            if (!string.IsNullOrWhiteSpace(login) && !string.IsNullOrWhiteSpace(password))
+            {
+
+                string filter = $"Username = '{login}'";
+                bindingSource1.Filter = filter;
+
+                if (bindingSource1.Count == 0)
                 {
-                    if (guna2TextBox1.Text != "" && guna2TextBox2.Text != "" && guna2TextBox2.Text != "")
-                    {
-                            this.usersTableAdapter.Insert(guna2TextBox1.Text, guna2TextBox2.Text, bool.Parse("0"));
-                            MessageBox.Show("Вы успешно зарегистрировались");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Заполните все поля");
-                    }
+
+                    this.usersTableAdapter.Insert(login, password, false); // Устанавливаем isAdmin в false
+                    MessageBox.Show("Вы успешно зарегистрировались");
                 }
                 else
                 {
                     MessageBox.Show("Пользователь с таким логином уже существует");
                 }
+            }
+            else
+            {
+                MessageBox.Show("Заполните все поля");
+            }
+
             Hide();
             AuthorizationForm authorizationForm = new AuthorizationForm();
             authorizationForm.ShowDialog();
