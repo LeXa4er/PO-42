@@ -117,20 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="bindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="cinemaDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>154, 17</value>
-  </metadata>
-  <metadata name="usersTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>287, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABTQAAANSCAIAAADUCNYkAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAA/7JJREFUeF6EnQeCHLuObN+G5l6pXXlv20htZv97+XEiQGZWS28+BLFBEARBpilG
+        DgAACw4BQL7hQQAA/7JJREFUeF6EnQeCHLuObN+G5l6pXXlv20htZv97+XEiQGZWS28+BLFBEARBpilG
         Ms1/fvz4Gf6p9N/Id+J///357z8/hiJK9V/CDwlOf0rx8+fd/cPj09NEKYax/3l39/POqdQPT5OJLKSt
         urAyrZXWaAL4998fpcGmGJ8j2c1XipK2ukFv+u7+7uH+Hr6TePfw4+f9j1YkjfQPKr27d7j3tr8fMUXi
         2KgCtYqdhVRL1Ym8wiDFexyKFc9P2aizqO8nk+njo4aCovgnksfHyXQ2nc0fHh5VhKWa6KG6Ik5oN325

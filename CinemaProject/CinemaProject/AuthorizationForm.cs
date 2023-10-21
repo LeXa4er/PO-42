@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,14 @@ namespace CinemaProject
 {
     public partial class AuthorizationForm : Form
     {
+        public SqlConnection connection;
+
         public AuthorizationForm()
         {
             InitializeComponent();
-            guna2TextBox2.UseSystemPasswordChar = true;
+            textBoxPassword.UseSystemPasswordChar = true;
+            string connectionString = "Data Source=DESKTOP-V7FB61F\\SQLEXPRESS;Initial Catalog=Cinema;Integrated Security=True";
+            connection = new SqlConnection(connectionString);
         }
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
@@ -27,29 +32,37 @@ namespace CinemaProject
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            if (guna2TextBox1.Text != "" && guna2TextBox2.Text != "")
+            string username = textBoxUsername.Text;
+            string password = textBoxPassword.Text;
+            bool isAdmin = false;
+
+            // Проверка аутентификации в базе данных
+            string query = "SELECT IsAdmin FROM Users WHERE Username=@Username AND Password=@Password";
+            using (SqlCommand command = new SqlCommand(query, connection))
             {
-                bindingSource1.Filter = "[Username] = '" + guna2TextBox1.Text + "' and [Password] = '" + guna2TextBox2.Text + "'";
-                if (bindingSource1.Count > 0)
+                command.Parameters.AddWithValue("@Username", username);
+                command.Parameters.AddWithValue("@Password", password);
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
                 {
-                    this.Hide();
-                    if (((DataRowView)bindingSource1.Current).Row["IsAdmin"].ToString() == "True")
-                    {
-                        AdminForm adminForm = new AdminForm();
-                        adminForm.ShowDialog();
-                    }
-                    else
-                    {
-                        MoviesForm movieForm = new MoviesForm();
-                        movieForm.ShowDialog();
-                    }
-                    this.Show();
+                    isAdmin = reader.GetBoolean(0);
                 }
-                else
-                    MessageBox.Show("Неверный логин или пароль");
+                connection.Close();
+            }
+
+            if (isAdmin)
+            {
+                AdminForm adminForm = new AdminForm();
+                adminForm.Show();
             }
             else
-                MessageBox.Show("Заполните все поля");
+            {
+                MoviesForm moviesForm = new MoviesForm();
+                moviesForm.Show();
+            }
+
+            this.Hide();
         }
         
         // Кнопка выход
@@ -63,18 +76,18 @@ namespace CinemaProject
         {
             if (checkBox1.Checked)
             {
-                guna2TextBox2.UseSystemPasswordChar = false;
+                textBoxPassword.UseSystemPasswordChar = false;
             }
             else
             {
-                guna2TextBox2.UseSystemPasswordChar = true;
+                textBoxPassword.UseSystemPasswordChar = true;
             }
         }
 
         private void AuthorizationForm_Load(object sender, EventArgs e)
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "cinemaDataSet.Users". При необходимости она может быть перемещена или удалена.
-            this.usersTableAdapter.Fill(this.cinemaDataSet.Users);
+            
 
         }
     }

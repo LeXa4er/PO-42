@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,13 @@ namespace CinemaProject
 {
     public partial class RegistrationForm : Form
     {
+        public SqlConnection connection;
         public RegistrationForm()
         {
             InitializeComponent();
-            guna2TextBox2.UseSystemPasswordChar = true;
+            textBoxPassword.UseSystemPasswordChar = true;
+            string connectionString = "Data Source=DESKTOP-V7FB61F\\SQLEXPRESS;Initial Catalog=Cinema;Integrated Security=True";
+            connection = new SqlConnection(connectionString);
         }
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
@@ -27,52 +31,50 @@ namespace CinemaProject
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            string login = guna2TextBox1.Text;
-            string password = guna2TextBox2.Text;
+            string username = textBoxUsername.Text;
+            string password = textBoxPassword.Text;
 
-            if (!string.IsNullOrWhiteSpace(login) && !string.IsNullOrWhiteSpace(password))
+            // Проверка, что поля логина и пароля не пустые
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
-
-                string filter = $"Username = '{login}'";
-                bindingSource1.Filter = filter;
-
-                if (bindingSource1.Count == 0)
-                {
-
-                    this.usersTableAdapter.Insert(login, password, false); // Устанавливаем isAdmin в false
-                    MessageBox.Show("Вы успешно зарегистрировались");
-                }
-                else
-                {
-                    MessageBox.Show("Пользователь с таким логином уже существует");
-                }
-            }
-            else
-            {
-                MessageBox.Show("Заполните все поля");
+                MessageBox.Show("Введите логин и пароль.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
 
-            Hide();
+            // Добавление нового пользователя в базу данных с флагом IsAdmin=false
+            string insertQuery = "INSERT INTO Users (Username, Password, IsAdmin) VALUES (@Username, @Password, 0)";
+            using (SqlCommand command = new SqlCommand(insertQuery, connection))
+            {
+                command.Parameters.AddWithValue("@Username", username);
+                command.Parameters.AddWithValue("@Password", password);
+                connection.Open();
+                command.ExecuteNonQuery();
+                connection.Close();
+            }
+
+            MessageBox.Show("Учетная запись успешно создана. Пожалуйста, войдите, используя свои учетные данные.", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            // Переход на форму авторизации после успешной регистрации
             AuthorizationForm authorizationForm = new AuthorizationForm();
             authorizationForm.ShowDialog();
+            this.Hide(); // Скрываем форму регистрации
         }
+
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked)
             {
-                guna2TextBox2.UseSystemPasswordChar = false;
+                textBoxPassword.UseSystemPasswordChar = false;
             }
             else
             {
-                guna2TextBox2.UseSystemPasswordChar = true;
+                textBoxPassword.UseSystemPasswordChar = true;
             }
         }
 
         private void RegistrationForm_Load(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "cinemaDataSet.Users". При необходимости она может быть перемещена или удалена.
-            this.usersTableAdapter.Fill(this.cinemaDataSet.Users);
 
         }
     }
