@@ -1,13 +1,42 @@
 ## База дыннах зоопарка
 
-Таблица 1 - Пользователи
+### Таблица 1 - Пользователи
 
 | Название поля | Тип поля         | Описание поля                |
 |:-------------:|:----------------:|:----------------------------:|
-| Login      | Nvarchar(30)           | Primary key       |
-| Password          | Nvarchar(30)     | ---            |
-| isAdmin       | Bit    | ---        |
-| Name         | Nvarchar(80)  | ---        |
+|Login      | Nvarchar(30)           | Primary key       |
+|Password          | Nvarchar(30)     | ---            |
+|isAdmin       | Bit    | ---        |
+|Name         | Nvarchar(80)  | ---        |
+
+### Таблица 2 - Клетки
+
+| Название поля | Тип поля         | Описание поля                |
+|:-------------:|:----------------:|:----------------------------:|
+|Id| Int| Primary key |
+|Name|Nvarchar(35)| --- |
+|Description|Nvarchar(100)| --- |
+
+### Таблица 3 - Тип животного
+
+| Название поля | Тип поля         | Описание поля                |
+|:-------------:|:----------------:|:----------------------------:|
+|Id | Int | Primary key identity (0,1)|
+|Name | Nvarchar(25) | --- |
+
+### Таблица 3 - Животные 
+
+| Название поля | Тип поля         | Описание поля                |
+|:-------------:|:----------------:|:----------------------------:|
+|Id | Int | Primary key identity (0,1)|
+|Type_id | Int | Foreign key references animalTypes (id)|
+|Nickname | Nvarchar(25) | --- |
+|Birthday | Date | --- |
+|Weight | SmallInt | --- |
+|Description | Nvarchar(150) | --- |
+|isMale | Bit | --- |
+|Cage_id | Int | Foreign key references Cages (id) |
+
 
 
  
