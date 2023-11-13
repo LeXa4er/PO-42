@@ -2,12 +2,12 @@
 
 Таблица 1 - Пользователи
 
-|Название поля|тип поля    |Описание поля                 |
+| Название поля | Тип поля         | Описание поля                |
 |:-------------:|:----------------:|:----------------------------:|
-|Login        |nvarchar(30)|primary key                   |
-|Password     |nvarchar(30)| |
-|Name         |nvarchar(80)| |
-|IsAdmin      |bit         | |
+| Login      | Nvarchar(30)           | Primary key       |
+| Password          | Nvarchar(30)     | ---            |
+| isAdmin       | Bit    | ---        |
+| Name         | Nvarchar(80)  | ---        |
 
 
  
