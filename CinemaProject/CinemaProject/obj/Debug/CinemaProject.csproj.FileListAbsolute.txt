@@ -32,3 +32,40 @@ C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\
 C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CoreCompileInputs.cache
 C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CopyComplete
 C:\Users\shefk\OneDrive\Рабочий стол\CinemaProject\CinemaProject\obj\Debug\CinemaProject.AdminForm.resources
+C:\Users\User\source\repos\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe.config
+C:\Users\User\source\repos\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe
+C:\Users\User\source\repos\CinemaProject\CinemaProject\bin\Debug\CinemaProject.pdb
+C:\Users\User\source\repos\CinemaProject\CinemaProject\bin\Debug\Guna.UI2.dll
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.g.resources
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.AdminForm.resources
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.AuthorizationForm.resources
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.BookingsForm.resources
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.MoviesForm.resources
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.Properties.Resources.resources
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.RegistrationForm.resources
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.SessionsForm.resources
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.GenerateResource.cache
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CopyComplete
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.exe
+C:\Users\User\source\repos\CinemaProject\CinemaProject\obj\Debug\CinemaProject.pdb
+D:\123123\PO-42\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe.config
+D:\123123\PO-42\CinemaProject\CinemaProject\bin\Debug\CinemaProject.exe
+D:\123123\PO-42\CinemaProject\CinemaProject\bin\Debug\CinemaProject.pdb
+D:\123123\PO-42\CinemaProject\CinemaProject\bin\Debug\Guna.UI2.dll
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.AssemblyReference.cache
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.g.resources
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.AdminForm.resources
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.AuthorizationForm.resources
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.BookingsForm.resources
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.MoviesForm.resources
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.Properties.Resources.resources
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.RegistrationForm.resources
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.SessionsForm.resources
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.GenerateResource.cache
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CoreCompileInputs.cache
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.csproj.CopyComplete
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.exe
+D:\123123\PO-42\CinemaProject\CinemaProject\obj\Debug\CinemaProject.pdb

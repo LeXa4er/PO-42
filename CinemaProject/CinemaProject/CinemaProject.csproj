@@ -36,6 +36,10 @@
     <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.5\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1004\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
@@ -69,6 +73,11 @@
     </Compile>
     <Compile Include="BookingsForm.Designer.cs">
       <DependentUpon>BookingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cinemaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cinemaDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="MoviesForm.cs">
       <SubType>Form</SubType>
@@ -118,6 +127,17 @@
     <EmbeddedResource Include="SessionsForm.resx">
       <DependentUpon>SessionsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="cinemaDataSet.xsc">
+      <DependentUpon>cinemaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cinemaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cinemaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cinemaDataSet.xss">
+      <DependentUpon>cinemaDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -140,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\drive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showpassword.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
